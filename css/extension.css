@@ -1,0 +1,526 @@
+.baishu .content {
+  padding-top: 4.5rem;
+}
+.baishu .content .extension-one-box {
+  background: url(../img/bg_gnkz.jpg) no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+}
+.baishu .content .extension-one-box .container {
+  padding: 2.5rem 0;
+  display: flex;
+}
+.baishu .content .extension-one-box .container .extension-left-box {
+  width: 43%;
+  float: left;
+  padding-top: 4rem;
+}
+.baishu .content .extension-one-box .container .extension-left-box .title {
+  margin-bottom: 2.625rem;
+}
+.baishu .content .extension-one-box .container .extension-left-box .title h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333333;
+  letter-spacing: 0.125rem;
+}
+.baishu .content .extension-one-box .container .extension-left-box .textDetails {
+  margin-bottom: 3.75rem;
+}
+.baishu .content .extension-one-box .container .extension-left-box .textDetails p {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #666666;
+  line-height: 1.875rem;
+}
+.baishu .content .extension-one-box .container .extension-left-box .button-box .button {
+  width: 9.375rem;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  background-color: #0265FF;
+  border-radius: 1.5625rem;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+.baishu .content .extension-one-box .container .extension-left-box .button-box .button a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.baishu .content .extension-one-box .container .extension-left-box .button-box .button:hover {
+  background-color: #0252CC;
+  transition: background-color 0.3s;
+}
+.baishu .content .extension-one-box .container .extension-right-box {
+  width: 57%;
+  float: left;
+  padding-left: 2.5rem;
+}
+.baishu .content .extension-one-box .container .extension-right-box .img-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.baishu .content .extension-one-box .container .extension-right-box .img-box img {
+  width: 26.9rem;
+}
+.baishu .content .extension-two-box .extension-menu {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  border-bottom: 1px solid #E0E0E0;
+  background-color: #ffffff;
+}
+.baishu .content .extension-two-box .extension-menu.fixed-box ul {
+  position: fixed;
+  top: 4.2rem;
+  width: 100%;
+  left: 0;
+  padding: 1.875rem 15px 0;
+  background-color: #ffffff;
+  border-bottom: 1px solid #E0E0E0;
+  z-index: 1;
+}
+.baishu .content .extension-two-box .extension-menu ul {
+  display: flex;
+  justify-content: center;
+}
+.baishu .content .extension-two-box .extension-menu ul li {
+  margin-right: 7.5rem;
+  padding-bottom: 1.875rem;
+  cursor: pointer;
+  position: relative;
+}
+.baishu .content .extension-two-box .extension-menu ul li:last-child {
+  margin-right: 0;
+}
+.baishu .content .extension-two-box .extension-menu ul li i {
+  font-size: 1.875rem;
+  vertical-align: bottom;
+  margin-right: 0.375rem;
+}
+.baishu .content .extension-two-box .extension-menu ul li span {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #555555;
+  vertical-align: middle;
+}
+.baishu .content .extension-two-box .extension-menu ul li.active span {
+  color: #0265FF;
+}
+.baishu .content .extension-two-box .extension-menu ul li.active:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.25rem;
+  background-color: #0265FF;
+  left: 0;
+  bottom: 0;
+}
+.baishu .content .extension-two-box .extension-list {
+  padding-top: 4.25rem;
+  background: url(../img/bg_gnkzsige@2x.png) no-repeat bottom center;
+  background-size: cover;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box {
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 5rem;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list {
+  display: flex;
+  width: 400%;
+  flex-wrap: nowrap;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont {
+  width: 25%;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .itemContTitle {
+  margin-bottom: 0.875rem;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .itemContTitle h3 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+  color: #2F2F2F;
+  font-family: Arial;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .itemContText {
+  margin-bottom: 2.5rem;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .itemContText p {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+  color: #333333;
+  font-family: Arial;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content {
+  display: flex;
+  justify-content: center;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub ul li {
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5.2%;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub ul li .col {
+  height: 5.875rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  padding-left: 1.125rem;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub ul li .col .item-col {
+  width: 100%;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub ul li .col .big {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  width: 100%;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub ul li .col .letter {
+  font-size: 0.875rem;
+  width: 100%;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 0.625rem;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub ul li .col.col4 {
+  width: 48.32%;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub ul li .col.col3 {
+  width: 100%;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub ul li .col.col2 {
+  width: 53.1%;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub ul li .col.col1 {
+  width: 44.4%;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub ul li:last-child {
+  margin-bottom: 0;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub:last-child ul li {
+  margin-right: 0;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub.last ul li {
+  margin-bottom: 0.5rem;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub.last ul li:last-child {
+  margin-bottom: 0;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub.blue {
+  width: 38.7%;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub.blue .col {
+  background-color: #2A82E1;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub.blue .col:hover {
+  background-color: #0056B3;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub.blueGreen {
+  width: 38.7%;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub.blueGreen .col {
+  background-color: #2AC2E1;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub.blueGreen .col:hover {
+  background-color: #0095B3;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub.purple {
+  width: 38.7%;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub.purple .col {
+  background-color: #8893FE;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub.purple .col:hover {
+  background-color: #2A3BE1;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub.blue2 {
+  width: 38.7%;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub.blue2 .col {
+  background-color: #5385D0;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub.blue2 .col:hover {
+  background-color: #1655B6;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub.green2 {
+  width: 22.4%;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub.green2 .col {
+  background-color: #65BAD7;
+  height: 8rem;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub.green2 .col:hover {
+  background-color: #2999BF;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub.green {
+  width: 22.4%;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub.green .col {
+  background-color: #49CC8C;
+  height: 12.25rem;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub.green .col:hover {
+  background-color: #05A858;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listPython {
+  margin-right: 2.125rem;
+  width: 19.75rem;
+  height: 21.25rem;
+  border-radius: 0.25rem;
+  padding: 1.5rem 1.25rem;
+  transition: all 0.3s;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listPython.purple {
+  background: url(../img/img_python1@2x.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listPython.purple:hover {
+  box-shadow: 0 0.125rem 1.875rem 0 rgba(103, 114, 228, 0.4);
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listPython.orange {
+  background: url(../img/img_python2@2x.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listPython.orange:hover {
+  box-shadow: 0 0.125rem 1.875rem 0 rgba(248, 127, 86, 0.4);
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listPython.green {
+  background: url(../img/img_python3@2x.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listPython.green:hover {
+  box-shadow: 0 0.125rem 1.875rem 0 rgba(2, 192, 198, 0.4);
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listPython .listTitle {
+  margin-bottom: 1.375rem;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listPython .listTitle h4 {
+  font-size: 1.375rem;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listPython .listText p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listPython:hover .listTitle h4 {
+  color: #333333;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listPython:hover .listText p {
+  color: #333333;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listPython:last-child {
+  margin-right: 0;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .itemWebapi-row {
+  margin-right: 1.875rem;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .itemWebapi-row:last-child {
+  margin: 0;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .itemWebapi-row .listWebapi {
+  width: 25rem;
+  height: 10.5rem;
+  border-radius: 0.25rem;
+  padding: 1.5rem 1.25rem;
+  margin-bottom: 1.875rem;
+  transition: all 0.3s;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .itemWebapi-row .listWebapi.add {
+  background: url(../img/img_webapi1@2x.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .itemWebapi-row .listWebapi.add:hover {
+  box-shadow: 0 0.125rem 1.875rem 0 rgba(91, 179, 255, 0.4);
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .itemWebapi-row .listWebapi.edit {
+  background: url(../img/img_webapi3@2x.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .itemWebapi-row .listWebapi.edit:hover {
+  box-shadow: 0 0.125rem 1.875rem 0 rgba(255, 149, 121, 0.4);
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .itemWebapi-row .listWebapi.del {
+  background: url(../img/img_webapi2@2x.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .itemWebapi-row .listWebapi.del:hover {
+  box-shadow: 0 0.125rem 1.875rem 0 rgba(255, 193, 74, 0.4);
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .itemWebapi-row .listWebapi.query {
+  background: url(../img/img_webapi4@2x.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .itemWebapi-row .listWebapi.query:hover {
+  box-shadow: 0 0.125rem 1.875rem 0 rgba(3, 216, 215, 0.4);
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .itemWebapi-row .listWebapi .listTitle {
+  margin-bottom: 1.375rem;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .itemWebapi-row .listWebapi .listTitle h4 {
+  font-size: 1.375rem;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .itemWebapi-row .listWebapi .listText p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .itemWebapi-row .listWebapi:hover .listTitle h4 {
+  color: #333333;
+}
+.baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .itemWebapi-row .listWebapi:hover .listText p {
+  color: #333333;
+}
+.baishu .content .extension-two-box .extension-list .container .button-box {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+.baishu .content .extension-two-box .extension-list .container .button-box .button {
+  width: 9.375rem;
+  height: 3.125rem;
+  background-color: #FFFFFF;
+  border-radius: 1.5625rem;
+  border: 2px solid #0265FF;
+  transition: background-color 0.3s;
+  line-height: 2.875rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #0265FF;
+  letter-spacing: 0.03rem;
+  cursor: pointer;
+}
+.baishu .content .extension-two-box .extension-list .container .button-box .button a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #0265FF;
+  letter-spacing: 0.03rem;
+}
+.baishu .content .extension-two-box .extension-list .container .button-box .button i {
+  font-size: 1.25rem;
+  margin-right: 0.375rem;
+  vertical-align: middle;
+}
+.baishu .content .extension-two-box .extension-list .container .button-box .button:hover {
+  background-color: #0265FF;
+  color: #ffffff;
+}
+.baishu .content .extension-two-box .extension-list .container .button-box .button:hover a {
+  color: #ffffff;
+}
+#videoBox {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 500000;
+  background-color: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+#videoBox #closeVideo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1.25rem;
+  font-size: 1.875rem;
+  background-color: rgba(2, 101, 255, 0.4);
+  cursor: pointer;
+  color: #ffffff;
+  transition: background-color 0.3s;
+  border-radius: 0 0 0 50%;
+}
+#videoBox #closeVideo:hover {
+  background-color: rgba(2, 101, 255, 0.8);
+}
+@media (max-width: 768px) {
+  html .baishu {
+    width: 100%;
+    overflow: hidden;
+  }
+  html .baishu .content .extension-one-box .container {
+    padding: 5rem 15px 2.375rem;
+    background: transparent;
+    display: block;
+  }
+  html .baishu .content .extension-one-box .container .extension-left-box {
+    width: 100%;
+    margin-bottom: 1.875rem;
+    padding-top: 0;
+  }
+  html .baishu .content .extension-one-box .container .extension-left-box .title h1 {
+    font-size: 2.25rem;
+  }
+  html .baishu .content .extension-one-box .container .extension-left-box .subTitle h2 {
+    font-size: 1.625rem;
+  }
+  html .baishu .content .extension-one-box .container .extension-left-box .textDetails p {
+    line-height: 1.75rem;
+  }
+  html .baishu .content .extension-one-box .container .extension-right-box {
+    width: 100%;
+    padding-left: 0;
+  }
+  html .baishu .content .extension-one-box .container .extension-right-box .img-box {
+    display: block;
+  }
+  html .baishu .content .extension-one-box .container .extension-right-box .img-box img {
+    width: 100%;
+  }
+  html .baishu .content .extension-two-box .extension-menu ul {
+    justify-content: space-between;
+    width: calc(100% - 30px);
+  }
+  html .baishu .content .extension-two-box .extension-menu ul li {
+    margin-right: 0;
+  }
+  html .baishu .content .extension-two-box .extension-menu ul li i {
+    display: none;
+  }
+  html .baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content {
+    display: block;
+  }
+  html .baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub {
+    width: auto!important;
+  }
+  html .baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub ul li {
+    margin-right: 0;
+  }
+  html .baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listSub ul li:last-child {
+    margin-bottom: 0.875rem;
+  }
+  html .baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .listPython {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 0.875rem;
+    height: 26.25rem;
+  }
+  html .baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .itemWebapi-row {
+    margin-right: 0;
+  }
+  html .baishu .content .extension-two-box .extension-list .container .extension-list-box .item-list .itemCont .item-content .itemWebapi-row .listWebapi {
+    width: 100%;
+    height: 18.5rem;
+  }
+}

@@ -1,0 +1,658 @@
+.baishu{
+  .content{
+    .header{
+      height: 554px;
+      background-image: url(../img/activity/bg_dingbu@2x.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      .container{
+        padding-top: 98px;
+        .title{
+          p{
+            text-align: center;
+            &.pc{
+              display: block;
+            }
+            &.mobile{
+              display: none;
+            }
+            img{
+              width: 847px;
+            }
+          }
+        }
+        .head-body{
+          margin: 20px auto 0;
+          width: 745px;
+          display: flex;
+          display: flex;
+          flex-flow: column;
+          align-items: center;
+          .activity-time{
+            position: relative;
+            &:before{
+              content: "";
+              background-color: #ffffff;
+              filter: blur(50px);
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              top: 0;
+              left: 0;
+              bottom: 0;
+              right: 0;
+              z-index: 0;
+            }
+            .time{
+              margin-bottom: 12px;
+              position: relative;
+              .time-title{
+                p{
+                  height: 28px;
+                  font-size: 20px;
+                  font-weight: bold;
+                  color: #9EFDCD;
+                  line-height: 28px;
+                }
+              }
+              .time-cont{
+                margin-top: 16px;
+                p{
+                  font-size: 26px;
+                  font-weight: bold;
+                  color: #C11703;
+                  line-height: 37px;
+                  letter-spacing: 1px;
+                  text-align: center;
+                }
+              }
+            }
+            .activity-tip{
+              margin-top: 0;
+              position: relative;
+              padding-bottom: 6px;
+              .tip-title{
+                p{
+                  font-size: 20px;
+                  font-weight: bold;
+                  color: #C11703;
+                  line-height: 28px;
+                  span{
+                    font-size: 42px;
+                    color: #C11703;
+                    letter-spacing: 1px;
+                  }
+                }
+              }
+              .tip-line{
+                position: absolute;
+                width: calc(100% + 80px);
+                height: 2px;
+                bottom: 0;
+                left: -40px;
+                background-color: #ffffff;
+              }
+            }
+          }
+          .activity-code{
+            p{
+              text-align: center;
+              img{
+                width: 160px;
+                display: block;
+                margin: 0 auto 12px;
+              }
+              span{
+                font-size: 18px;
+                font-weight: bold;
+                color: #FFFFFF;
+                line-height: 25px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .activity-body{
+      padding-top: 80px;
+      *{
+        letter-spacing: 0.66px;
+      }
+      .container{
+        .activity-title{
+          .title{
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+            color: #333333;
+            line-height: 50px;
+            margin-bottom: 20px;
+          }
+          .msg-tip{
+            text-align: center;
+            font-size: 16px;
+            font-weight: 500;
+            color: #666666;
+            line-height: 22px;
+          }
+        }
+        .activity-pice-list{
+          margin-top: 60px;
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          .activity-pice-item{
+            width: calc(25% - 16px);
+            background: #FFFFFF;
+            box-shadow: 0px 2px 14px 0px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            .item-title{
+              width: 100%;
+              height: 110px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-radius: 10px 10px 0 0;
+              overflow: hidden;
+              background-image: url(../img/activity/img_jichu@2x.png);
+              background-repeat: no-repeat;
+              background-size: cover;
+              p{
+                font-size: 22px;
+                font-weight: bold;
+                color: #FFFFFF;
+                line-height: 30px;
+              }
+            }
+            .item-pice{
+              padding: 16px 0;
+              p{
+                font-size: 16px;
+                font-weight: bold;
+                color: #333333;
+                line-height: 1;
+                text-align: center;
+                span{
+                  font-size: 36px;
+                  letter-spacing: 1px;
+                }
+              }
+            }
+            .item-buy-year{
+              padding: 0 20px;
+              .year-content{
+                padding: 16px 0;
+                border-top: 1px solid #E0E0E0;
+                .cont-title{
+                  padding-left: 10px;
+                  font-size: 16px;
+                  font-weight: bold;
+                  color: #F08829;
+                  line-height: 22px;
+                  position: relative;
+                  margin-bottom: 12px;
+                  &:before {
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    transform: translate(0, -50%);
+                    width: 4px;
+                    height: 16px;
+                    background: #F08829;
+                  }
+                }
+                .cont-msg{
+                  font-size: 14px;
+                  font-weight: 500;
+                  color: #333333;
+                  line-height: 1;
+                  margin-bottom: 12px;
+                  span{
+                    color: #0265ff;
+                    font-size: 20px;
+                  }
+                }
+                .cont-pice{
+                  font-size: 14px;
+                  font-weight: 500;
+                  color: #333333;
+                  line-height: 1;
+                  span{
+                    color: #0265ff;
+                    font-size: 20px;
+                  }
+                }
+              }
+            }
+            &:nth-child(2){
+              .item-title{
+                background-image: url(../img/activity/img_biaozhun@2x.png);
+              }
+              .item-buy-year{
+                .year-content{
+                  .cont-title{
+                    color: #EF7E67;
+                    &:before{
+                      background: #EF7E67;
+                    }
+                  }
+                }
+              }
+            }
+            &:nth-child(3){
+              .item-title{
+                background-image: url(../img/activity/img_zhuanye@2x.png);
+              }
+              .item-buy-year{
+                .year-content{
+                  .cont-title{
+                    color: #EB552E;
+                    &:before{
+                      background: #EB552E;
+                    }
+                  }
+                }
+              }
+            }
+            &:nth-child(4){
+              .item-title{
+                background-image: url(../img/activity/img_qijian@2x.png);
+              }
+              .item-buy-year{
+                .year-content{
+                  .cont-title{
+                    color: #D41E04;
+                    &:before{
+                      background: #D41E04;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        .activity-business{
+          .business-content{
+            margin-top: 32px;
+            width: 100%;
+            background: #FFFFFF;
+            box-shadow: 0px 2px 14px 0px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            .title{
+              width: 100%;
+              height: 110px;
+              background-image: url(../img/activity/img_shangwu@2x.png);
+              background-repeat: no-repeat;
+              background-size: cover;
+              border-radius: 10px 10px 0 0;
+              overflow: hidden;
+              p{
+                font-size: 22px;
+                font-weight: bold;
+                color: #FFFFFF;
+                line-height: 110px;
+                text-align: center;
+              }
+            }
+            .business-list{
+              padding: 30px 20px 20px;
+              display: flex;
+              justify-content: space-between;
+              .business-item{
+                width: 50%;
+                .item-title{
+                  padding-left: 10px;
+                  font-size: 16px;
+                  font-weight: bold;
+                  color: #EB552E;
+                  line-height: 22px;
+                  position: relative;
+                  margin-bottom: 12px;
+                  &:before {
+                    content: "";
+                      position: absolute;
+                      top: 50%;
+                      left: 0;
+                      transform: translate(0, -50%);
+                      width: 4px;
+                      height: 16px;
+                      background: #EB552E;
+                  }
+                }
+                .item-list{
+                  p{
+                    margin-bottom: 12px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #333333;
+                    line-height: 1;
+                    display: flex;
+                    align-items: baseline;
+                    b{
+                      display: block;
+                    }
+                    span{
+                      font-size: 20px;
+                      color: #0265FF;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .activity-footer{
+      height: 358px;
+      background-image: url(../img/activity/bg_dibu@2x.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin-top: 80px;
+      .container{
+        padding-top: 60px;
+        .footer-title{
+          font-size: 36px;
+          font-weight: bold;
+          color: #FFFFFF;
+          line-height: 50px;
+          text-align: center;
+          margin-bottom: 20px;
+        }
+        .footer-msg{
+          font-size: 16px;
+          font-weight: 500;
+          color: #FFFFFF;
+          line-height: 22px;
+          text-align: center;
+          margin-bottom: 40px;
+        }
+        .footer-cont{
+          display: flex;
+          flex-flow: column;
+          align-items: center;
+          justify-content: space-between;
+          .time{
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 22px;
+            .time-title{
+              display: flex;
+              align-items: center;
+              height: 30px;
+              .title-icon{
+                margin-right: 8px;
+                img{
+                  width:26px;
+                  display: block;
+                }
+              }
+              .title-cont{
+                font-size: 18px;
+                font-weight: 500;
+                color: #FFFFFF;
+                line-height: 25px;
+              }
+            }
+            .time-content{
+              font-size: 22px;
+              font-weight: bold;
+              color: #F4FFBC;
+              line-height: 30px;
+              letter-spacing: 1px;
+              height: 30px;
+            }
+          }
+          .code{
+            display: flex;
+            align-items: flex-start;
+            .code-title{
+              display: flex;
+              align-items: center;
+              height: 30px;
+              .title-icon{
+                margin-right: 8px;
+                img{
+                  width:26px;
+                  display: block;
+                }
+              }
+              .title-cont{
+                font-size: 18px;
+                font-weight: 500;
+                color: #FFFFFF;
+                line-height: 25px;
+              }
+            }
+            .code-content{
+              img{
+                width: 125px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 980px) {
+  .baishu{
+    .container{
+      width: 100%;
+      padding: 0;
+    }
+    .content{
+      width: 100%;
+      .header{
+        height: auto;
+        background-image: url(../img/activity/bg_datu@2x.png);
+        background-size: 100%;
+        background-position: center bottom;
+        .container{
+          padding-top: 75px;
+          .title{
+            p{
+              &.pc{
+                display: none;
+              }
+              &.mobile{
+                display: block;
+              }
+              img{
+                width: 243px;
+              }
+            }
+          }
+          .head-body{
+            width: 100%;
+            margin-top: 38px;
+            flex-flow: column;
+            padding: 0 15px;
+            .activity-time{
+              &:before{
+                display: none;
+              }
+              .time{
+                .time-title{
+                  p{
+                    font-size: 18px;
+                    text-align: center;
+                  }
+                }
+                .time-cont{
+                  padding: 0 14px 6px;
+                  margin-top: 0;
+                  p{
+                    font-size: 20px;
+                    text-align: center;
+                  }
+                }
+              }
+              .activity-tip{
+                margin-top: 0;
+                .tip-title{
+                  p{
+                    font-size: 16px;
+                    text-align: center;
+                    span{
+                      font-size: 24px;
+                    }
+                  }
+                }
+                .tip-line{
+                  width: 100%;
+                  left: 0;
+                }
+              }
+            }
+            .activity-code{
+              margin-top: 124px;
+              padding-bottom: 68px;
+              p{
+                img{
+                  width: 120px;
+                }
+                span{
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .activity-body{
+        padding-top: 30px;
+        .container{
+          .activity-title{
+            padding: 0 15px;
+            .title{
+              font-size: 16px;
+              line-height: 1;
+              margin-bottom: 14px;
+            }
+            .msg-tip{
+                font-size: 14px;
+            }
+          }
+          .activity-pice-list{
+            margin-top: 6px;
+            padding: 14px;
+            overflow-x: auto;
+            width: 100%;
+            display: block;
+            .activity-pice-item{
+              width: 100%;
+              margin-bottom: 15px;
+              // min-width: 270px;
+              .item-title{
+                background-image: url(../img/activity/img_mobile_jichu@2x.png);
+              }
+              &:nth-child(2){
+                .item-title{
+                  background-image: url(../img/activity/img_mobile_biaozhun@2x.png);
+                }
+              }
+              &:nth-child(3){
+                .item-title{
+                  background-image: url(../img/activity/img_mobile_zhuanye@2x.png);
+                }
+              }
+              &:nth-child(4){
+                .item-title{
+                  background-image: url(../img/activity/img_mobile_qijian@2x.png);
+                }
+              }
+              &:last-child{
+                margin-bottom: 0;
+              }
+            }
+          }
+          .activity-business{
+            padding: 0 15px;
+            .business-content{
+              .title{
+                background-image: url(../img/activity/img_mobile_shangwu@2x.png);
+              }
+              .business-list{
+                flex-flow: column;
+                .business-item{
+                  width: 100%;
+                  margin-bottom: 20px;
+                  .item-list{
+                    p{
+                      line-height: normal;
+                      margin-bottom: 10px;
+                    }
+                  }
+                  &:last-child{
+                    margin-bottom: 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .activity-footer{
+        background-image: url(../img/activity/bg_mobile_dibu@2x.png);
+        margin-top: 30px;
+        .container{
+          padding-top: 60px;
+          .footer-title{
+            font-size: 16px;
+            line-height: normal;
+          }
+          .footer-msg{
+            display: none;
+          }
+          .footer-cont{
+            flex-flow: column;
+            align-items: center;
+            .time{
+              flex-flow: column;
+              align-items: center;
+              margin-bottom: 20px;
+              .time-title{
+                .title-icon{
+                  img{
+                    width: 16px;
+                  }
+                }
+                .title-cont{
+                  font-size: 14px;
+                }
+              }
+              .time-content{
+                font-size: 16px;
+              }
+            }
+            .code{
+              flex-flow: column;
+              align-items: center;
+              .code-title{
+                .title-icon{
+                  img{
+                    width: 16px;
+                  }
+                }
+                .title-cont{
+                  font-size: 14px;
+                }
+              }
+              .code-content{
+                img{
+                  width: 105px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

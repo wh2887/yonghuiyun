@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="Keywords" content="数据报表,数据管理软件,报表软件,报表平台,可视化报表,bi报表">
+    <meta property="og:title" content="分析报表_百数_一站式企业数字化办公平台">
+    <meta property="og:description" content="百数分析报表功能，快速生成可视化数据报表、bi报表，并通过透视图、折线图、饼图、雷达图、地图等多种方式呈现，为企业管理层提供更准确的决策依据。">
+    <meta name="description" content="百数分析报表功能，快速生成可视化数据报表、bi报表，并通过透视图、折线图、饼图、雷达图、地图等多种方式呈现，为企业管理层提供更准确的决策依据。">
+    <title>分析报表_百数_一站式企业数字化办公平台</title>
+    <link rel="stylesheet" href="css/base/bootstrap.min.css?v=1.1.3" />
+    <link rel="stylesheet" href="css/base/iconfont.css?v=1.1.3" />
+    <link rel="stylesheet" href="css/base/bs-video.css?v=1.1.3" />
+    <link rel="stylesheet" href="css/base/base.css?v=1.1.3" />
+    <link rel="stylesheet" href="css/report.css?v=1.1.3" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+<div id="maodian"></div>
+<div class="baishu">
+    <div class="header">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="nav navbar-header">
+                    <a class="navbar-brand" href="https://www.baishuyun.com" title="百数中台-为企业搭建数字化办公平台">
+                        <img alt="百数中台-为企业搭建数字化办公平台" src="img/logo@2x.png" id="logoImg">
+                    </a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-label="Expand and Collapse Menu">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <ul class="nav navbar-nav navbar-sub pull-right loginUse">
+                        <li><a href="https://pub.baishuyun.com" target="_blank" rel="nofollow">登录</a> </li>
+                        <li><a href="https://pub.baishuyun.com/user/login?type=register" target="_blank" rel="nofollow">免费注册</a> </li>
+                    </ul>
+                </div>
+                <div id="navbar" aria-expanded="false" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a class="link" href="https://www.baishuyun.com" title="网站首页">首页</a></li>
+                        <li class="active">
+                            <div class="header-dropdown mopen">
+                                <a class="link" href="#" title="功能"><span>功能</span><i class="bs-icon-icongongnengxiala"></i></a>
+                                <div class="header-dropdown-box" style="opacity: 0;display: none;">
+                                    <div class="dropdown-box">
+                                        <div class="container">
+                                            <div class="header-dropdown-sections">
+                                                <div class="sections">
+                                                    <dl>
+                                                        <dt>基础功能</dt>
+                                                        <dd>
+                                                            <a href="https://www.baishuyun.com/form.html" class="blue" title="在线表单工具">
+                                                                <i class="bs-icon-iconbiaodan" style="color: #1890FF"></i>
+                                                                <span>在线表单</span>
+                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a href="https://www.baishuyun.com/report.html" class="green active">
+                                                                <i class="bs-icon-iconbaobiao" style="color: #A0D911"></i>
+                                                                <span>分析报表</span>
+                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a href="https://www.baishuyun.com/flow.html" class="orange" title="协同办公系统">
+                                                                <i class="bs-icon-iconliuchengshenpi" style="color: #FAAD14"></i>
+                                                                <span>流程引擎</span>
+                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a href="https://www.baishuyun.com/view.html" class="blue1" title="数据自动化运算">
+                                                                <i class="bs-icon-iconshujushitu" style="color: #2F54EB"></i>
+                                                                <span>数据视图</span>
+                                                            </a>
+                                                        </dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="sections">
+                                                    <dl>
+                                                        <dt>功能扩展</dt>
+                                                        <dd>
+                                                            <a href="https://www.baishuyun.com/extension.html?id=1" class="green2" title="数据助手">
+                                                                <i class="bs-icon-iconshujuzhushou" style="color: #13C2C2"></i>
+                                                                <span>数据助手</span>
+                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a href="https://www.baishuyun.com/extension.html?id=2" class="blue1" title="python办公软件">
+                                                                <i class="bs-icon-iconPythonjiaoben" style="color: #2F54EB"></i>
+                                                                <span>Python脚本</span>
+                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a href="https://www.baishuyun.com/extension.html?id=3" class="green" title="办公系统扩展">
+                                                                <i class="bs-icon-icongongnengmokuai" style="color: #A0D911"></i>
+                                                                <span>功能模块</span>
+                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a href="https://www.baishuyun.com/extension.html?id=4" class="blue1" title="Webapi接口">
+                                                                <i class="bs-icon-iconwebapi" style="color: #2F54EB"></i>
+                                                                <span>webApi</span>
+                                                            </a>
+                                                        </dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="sections">
+                                                    <dl>
+                                                        <dt>团队协作</dt>
+                                                        <dd>
+                                                            <a href="https://www.baishuyun.com/team.html?id=1" class="blue" title="组织架构">
+                                                                <i class="bs-icon-iconzuzhijiagou" style="color: #1890FF"></i>
+                                                                <span>组织架构</span>
+                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a href="https://www.baishuyun.com/team.html?id=2" class="orange1" title="权限体系">
+                                                                <i class="bs-icon-iconquanxiantixi" style="color: #FA8C16"></i>
+                                                                <span>权限体系</span>
+                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a href="https://www.baishuyun.com/team.html?id=3" class="orange" title="消息体系">
+                                                                <i class="bs-icon-iconxiaoxitixing" style="color: #FAAD14"></i>
+                                                                <span>消息体系</span>
+                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a href="https://www.baishuyun.com/team.html?id=4" class="green1" title="企业微信模式">
+                                                                <i class="bs-icon-iconweixingongzhonghaomoshi" style="color: #A0D911"></i>
+                                                                <span>企业微信模式</span>
+                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a href="https://www.baishuyun.com/team.html?id=5" class="blue" title="钉钉模式">
+                                                                <i class="bs-icon-icondingdingmoshi" style="color: #1890FF"></i>
+                                                                <span>钉钉模式</span>
+                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a href="https://www.baishuyun.com/team.html?id=6" class="green" title="微信公众号模式">
+                                                                <i class="bs-icon-iconqiyeweixinmoshi" style="color: #52C41A"></i>
+                                                                <span>微信公众号模式</span>
+                                                            </a>
+                                                        </dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="sections">
+                                                    <dl>
+                                                        <dt>安全</dt>
+                                                        <dd>
+                                                            <a href="https://www.baishuyun.com/safety.html" class="green" title="百数数据安全体系">
+                                                                <i class="bs-icon-iconanquanheguifan" style="color: #A0D911"></i>
+                                                                <span>安全和规范</span>
+                                                            </a>
+                                                        </dd>
+                                                    </dl>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a class="link" href="https://app.baishuyun.com" target="_blank" title="应用中心">应用中心</a> </li>
+                        <li><a class="link" href="https://www.baishuyun.com/private_cloud.html" title="私有云">私有云</a> </li>
+                        <li><a class="link" href="https://www.baishuyun.com/pricing.html" title="价格">价格</a> </li>
+                        <li><a class="link" target="_blank" rel="nofollow" href="https://doc.baishuyun.com/">帮助</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="content">
+        <div class="report-index-one">
+            <div class="container">
+                <div class="report-left-box">
+                    <div class="title">
+                        <h1>分析报表</h1>
+                    </div>
+                    <div class="subTitle">
+                        <h2>满足各种场景的数据展示</h2>
+                    </div>
+                    <div class="textDetails">
+                        <p>将企业数据可视化、图形化呈现，为企业决策提供多维度的数据支撑</p>
+                    </div>
+                    <div class="button-box">
+                        <div class="button">
+                            <a href="https://pub.baishuyun.com" target="_blank" rel="nofollow">立即使用</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="report-right-box">
+                    <div class="video-box">
+                        <div id="testBox">
+                            <video class="feature-video" playsinline="true" style="visibility: visible;" poster="#">
+                                <source src="https://www.baishuyun.com/video/report_video.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="report-index-two">
+            <div class="container">
+                <div class="content-box">
+                    <div class="title">
+                        <h2>报表呈现</h2>
+                    </div>
+                    <div class="subTitle">
+                        <p>企业每一个决策都是建立在准确的数据分析上</p>
+                    </div>
+                    <div class="imgList">
+                        <ul>
+                            <li><img src="img/img_gn_bb_bbcx1@2x.png" alt="柱形图"></li>
+                            <li><img src="img/img_gn_bb_bbcx2@2x.png" alt="条形图"></li>
+                            <li><img src="img/img_gn_bb_bbcx3@2x.png" alt="面积图"></li>
+                            <li><img src="img/img_gn_bb_bbcx4@2x.png" alt="折线图"></li>
+                            <li><img src="img/img_gn_bb_bbcx5@2x.png" alt="饼图"></li>
+                            <li><img src="img/img_gn_bb_bbcx6@2x.png" alt="雷达图"></li>
+                            <li style="width:50%"><img src="img/img_gn_bb_bbcx7@2x.png" alt="漏斗图"></li>
+                            <li style="width:50%"><img src="img/img_gn_bb_bbcx8@2x.png" alt="指标"></li>
+                            <!-- <li><img src="img/img_gn_bb_bbcx9@2x.png" alt="地图"></li> -->
+                        </ul>
+                        <div class="report-img">
+                            <img src="img/img_gn_bb_bbcx10@2x.png" alt="双轴图">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="report-index-three">
+            <div class="report-type-left">
+                <div class="container">
+                    <div class="text-box">
+                        <div class="title">
+                            <h4>透视图</h4>
+                            <img src="img/ic_gn_bt@2x.png" alt="">
+                        </div>
+                        <div class="subTitle">
+                            <p>分类汇总数据，实现数据的统计计算、占比、同环比</p>
+                        </div>
+                        <div class="button-box">
+                            <div class="button">
+                                <a href="https://pub.baishuyun.com" target="_blank" rel="nofollow">立即使用</a>
+                            </div>
+                        </div>
+                        <div class="adornImg">
+                            <img src="img/img_gn_bd_chengse@2x.png" alt="">
+                        </div>
+                    </div>
+                    <div class="img-box">
+                        <img src="img/img_gn_bb_toushitu@2x.png" alt="透视图">
+                    </div>
+                </div>
+            </div>
+            <div class="report-type-right">
+                <div class="container">
+                    <div class="text-box">
+                        <div class="title">
+                            <h4>数据表</h4>
+                            <img src="img/ic_gn_bt@2x.png" alt="">
+                        </div>
+                        <div class="subTitle">
+                            <p>用于常见的表格展示数据，管理数据</p>
+                        </div>
+                        <div class="button-box">
+                            <div class="button">
+                                <a href="https://pub.baishuyun.com" target="_blank" rel="nofollow">立即使用</a>
+                            </div>
+                        </div>
+                        <div class="adornImg">
+                            <img src="img/img_gn_bd_lvse@2x.png" alt="">
+                        </div>
+                    </div>
+                    <div class="img-box">
+                        <img src="img/img_gn_bb_shujubiao@2x.png" alt="数据表">
+                    </div>
+                </div>
+            </div>
+            <div class="report-type-left">
+                <div class="container">
+                    <div class="text-box">
+                        <div class="title">
+                            <h4>地图场景</h4>
+                            <img src="img/ic_gn_bt@2x.png" alt="">
+                        </div>
+                        <div class="subTitle">
+                            <p>基于地理位置进行数据展示和管理，并支持导航</p>
+                        </div>
+                        <div class="button-box">
+                            <div class="button">
+                                <a href="https://pub.baishuyun.com" target="_blank" rel="nofollow">立即使用</a>
+                            </div>
+                        </div>
+                        <div class="adornImg">
+                            <img src="img/img_gn_bd_chengse@2x.png" alt="">
+                        </div>
+                    </div>
+                    <div class="img-box">
+                        <img src="img/img_gn_bb_ditu@2x.png" alt="地图报表">
+                    </div>
+                </div>
+            </div>
+            <div class="report-type-right">
+                <div class="container">
+                    <div class="text-box">
+                        <div class="title">
+                            <h4>卡片场景</h4>
+                            <img src="img/ic_gn_bt@2x.png" alt="">
+                        </div>
+                        <div class="subTitle">
+                            <p>基于人物或对象进行关键数据展示和管理</p>
+                        </div>
+                        <div class="button-box">
+                            <div class="button">
+                                <a href="https://pub.baishuyun.com" target="_blank" rel="nofollow">立即使用</a>
+                            </div>
+                        </div>
+                        <div class="adornImg">
+                            <img src="img/img_gn_bd_lvse@2x.png" alt="">
+                        </div>
+                    </div>
+                    <div class="img-box">
+                        <img src="img/img_gn_bb_kapian@2x.png" alt="卡片">
+                    </div>
+
+                </div>
+            </div>
+            <div class="report-type-left">
+                <div class="container">
+                    <div class="text-box">
+                        <div class="title">
+                            <h4>权限管理</h4>
+                            <img src="img/ic_gn_bt@2x.png" alt="">
+                        </div>
+                        <div class="subTitle">
+                            <p>灵活控制成员对数据的操作权限，确保数据安全</p>
+                        </div>
+                        <div class="button-box">
+                            <div class="button">
+                                <a href="https://pub.baishuyun.com" target="_blank" rel="nofollow">立即使用</a>
+                            </div>
+                        </div>
+                        <div class="adornImg">
+                            <img src="img/img_gn_bd_chengse@2x.png" alt="">
+                        </div>
+                    </div>
+                    <div class="img-box">
+                        <img src="img/img_gn_bb_quanxian@2x.png" alt="数据报表权限">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="report-index-four">
+            <div class="container">
+                <div class="six-box">
+                    <div class="img-box">
+                        <img src="img/img_sy_mfb@2x.png" alt="企业管理软件">
+                    </div>
+                    <div class="cont-box">
+                        <div class="contText">
+                            <div class="text-title">
+                                使用百数，开启数字化办公
+                            </div>
+                            <div class="button-box">
+                                <a href="https://pub.baishuyun.com" target="_blank" rel="nofollow">使用免费版</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-top-cont">
+                <div class="footer-top-left">
+                    <dl class="pc">
+                        <dt>产品功能</dt>
+                        <dd><a href="https://www.baishuyun.com/form.html">在线表单</a></dd>
+                        <dd><a href="https://www.baishuyun.com/report.html">分析报表</a></dd>
+                        <dd><a href="https://www.baishuyun.com/flow.html">流程引擎</a></dd>
+
+                        <dd><a target="_blank" rel="nofollow" href="https://doc.baishuyun.com/index/update">更新日志</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>私有云</dt>
+                        <dd><a href="https://www.baishuyun.com/private_cloud.html">私有云介绍</a></dd>
+                        <dd><a href="https://www.baishuyun.com/pricing.html">价格</a></dd>
+                        <dd><a target="_blank" rel="nofollow" href="https://pub.baishuyun.com">免费体验</a></dd>
+<!--                        <dd><a target="_blank" rel="nofollow" href="http://user.baishuyun.com/">私有云中控台</a></dd>-->
+                    </dl>
+                    <dl>
+                        <dt>用户服务</dt>
+                        <dd><a href="https://www.baishuyun.com/customize.html">我要定制</a></dd>
+                        <dd><a href="https://app.baishuyun.com" target="_blank">应用中心</a></dd>
+
+                        <!-- <dd><a target="_blank" rel="nofollow"  href="https://pub.baishuyun.com/f/5574a93876247eab8ce22f1d">反馈意见</a></dd> -->
+                    <!-- <dd><a target="_blank" rel="nofollow" href="https://baishuyun.ke.qq.com/?tuin=91be7bd4">在线培训</a></dd> -->
+                    </dl>
+                    <dl>
+                        <dt>公司</dt>
+                        <dd><a href="https://www.baishuyun.com/about.html">关于我们</a></dd>
+                        <dd><a href="https://www.baishuyun.com/cooperation.html">商务合作</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>联系我们</dt>
+                        <dd><a>公司地址：湖南省长沙市芙蓉区五一大道与建湘路交汇处西南角世茂环球金融中心B栋1302</a></dd>
+                        <dd class="pcPhone"><a>服务热线：400-011-1850</a></dd>
+                        <dd class="mobilePhone"><a href="tel:400-011-1850">服务热线：400-011-1850</a></dd>
+                        <dd><a>工作日：09：00-12：00，13：30-18：00</a></dd>
+                        <dd><a href="https://jq.qq.com/?_wv=1027&k=5mNcI0x" target="_blank" rel="nofollow">技术交流QQ群：256316182</a></dd>
+                    </dl>
+                </div>
+                <div class="footer-top-right">
+                    <div class="qrcode-box">
+                        <div class="qrcode">
+                            <img src="img/img_erweima@2x.png" alt="">
+                        </div>
+                        <!--                        <div class="qrcode-tip">-->
+                        <!--                            微信服务号-->
+                        <!--                        </div>-->
+                    </div>
+                    <!--                    <div class="qrcode-box">-->
+                    <!--                        <div class="qrcode">-->
+                    <!--                            <img src="img/ic_dd@2x.png" alt="">-->
+                    <!--                        </div>-->
+                    <!--                        <div class="qrcode-tip">-->
+                    <!--                            优选品牌-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+                    <!--                    <div class="qrcode-box">-->
+                    <!--                        <div class="qrcode">-->
+                    <!--                            <img src="img/ic_dd@2x.png" alt="">-->
+                    <!--                        </div>-->
+                    <!--                        <div class="qrcode-tip">-->
+
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+                </div>
+            </div>
+            <div class="footer-bottom-cont">
+                <div class="footer-tip">
+                    © 2016-2022 Baishuyun Inc.All Rights Reserved 长沙百数科技有限公司版权所有（<a href="https://beian.miit.gov.cn/" target="_blank">湘ICP备15007281号-4</a>）
+                </div>
+
+                <div style="width:230px;margin:0 auto; padding:20px 0;">
+                    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43010202001404" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="./img/gonganbeian.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">湘公网安备 43010202001404号</p></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="advisory-box" id="advisory-box" >
+        <div class="pc">
+            <div class="advisory-icon">
+                <i class="bs-icon-iconzixunfuwu"></i>
+            </div>
+            <div class="advisory-text">
+                咨<br />询<br />服<br />务
+            </div>
+        </div>
+        <div class="mobile">
+            <div class="advisory-icon">
+                <i class="bs-icon-iconzixunfuwu"></i>
+            </div>
+        </div>
+    </div>
+    <div class="advisory-content">
+        <div class="content">
+            <i class="bs-icon-iconxiaohaoguanbi"></i>
+            <div id="maskIframe">
+                <div class="loader">
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                </div>
+            </div>
+            <div id="iframeBox">
+
+            </div>
+        </div>
+    </div>
+    <div class="advisory-list">
+        <div class="bs-contact-us">
+            <div class="contact-button technical-support" id="consult" target="_blank">
+                <div class="contact-icon consult">
+
+                </div>
+                <span class="name">在线咨询</span>
+            </div>
+            <div class="contact-button phone-contact">
+                <div class="contact-icon phobe">
+
+                </div>
+                <span class="name">电话咨询</span>
+                <div class="phone-block">
+                    <p>服务热线</p>
+                    <p class="color-green">400-011-1850</p>
+                </div>
+            </div>
+            <div class="contact-button weixin-contact">
+                <div class="contact-icon wechat">
+
+                </div>
+                <span class="name">微信咨询</span>
+                <div class="weixin-block">
+                    <img src="/img/img_erweimawxzx@2x.png">
+                    <p>关注微信公众号</p>
+                </div>
+            </div>
+        </div>
+        <div class="contact-button back-top">
+            <div class="contact-icon backTop">
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="js/base/jquery-3.5.1.min.js?v=1.1.3"></script>
+<script type="text/javascript" src="js/base/bootstrap.min.js?v=1.1.3"></script>
+<script type="text/javascript" src="js/base/bs-video.js?v=1.1.3"></script>
+<script type="text/javascript" src="js/base/base.js?v=1.1.3"></script>
+<script type="text/javascript">
+    $(window).bind('scroll',function(){//开始监听滚动条
+        var topEl= $('.baishu .content .report-index-two').offset().top-560;
+        var wTop=$(document).scrollTop();
+        if(topEl<=wTop){
+            var liEl=$('.baishu .content .report-index-two .content-box .imgList ul li');
+            var lg=liEl.length;
+            var i=0;
+            var time=setInterval(function () {
+                $(liEl[i]).addClass("active");
+                if(i>=lg){
+                    clearInterval(time);
+                    setTimeout(function () {
+                        $(".baishu .content .report-index-two .content-box .imgList .report-img").addClass("active");
+                    },30)
+                }else{
+                    i++
+                }
+            },200)
+
+        }
+    })
+</script>
+</html>

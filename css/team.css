@@ -1,0 +1,377 @@
+.baishu .content {
+  padding-top: 4.5rem;
+}
+.baishu .content .team-index-one {
+  background-image: url(../img/bg_xiezuo@2x.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  padding: 4.25rem 0;
+}
+.baishu .content .team-index-one .team-left-box {
+  width: 50%;
+  float: left;
+  padding-right: 5rem;
+  padding-top: 3rem;
+}
+.baishu .content .team-index-one .team-left-box .title {
+  margin-bottom: 1.25rem;
+}
+.baishu .content .team-index-one .team-left-box .title h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333333;
+  letter-spacing: 0.125rem;
+}
+.baishu .content .team-index-one .team-left-box .textDetails {
+  margin-bottom: 3.75rem;
+}
+.baishu .content .team-index-one .team-left-box .textDetails p {
+  line-height: 1.875rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #666666;
+  letter-spacing: 0.048125rem;
+}
+.baishu .content .team-index-one .team-left-box .button-box .button {
+  width: 9.375rem;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  background-color: #0265FF;
+  border-radius: 1.5625rem;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+.baishu .content .team-index-one .team-left-box .button-box .button a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.baishu .content .team-index-one .team-left-box .button-box .button:hover {
+  background-color: #0252CC;
+  transition: background-color 0.3s;
+}
+.baishu .content .team-index-one .team-right-box {
+  width: 50%;
+  float: left;
+  padding-top: 3rem;
+}
+.baishu .content .team-index-one .team-right-box img {
+  width: 100%;
+}
+.baishu .content .team-index-two {
+  padding: 3.625rem 0 0;
+}
+.baishu .content .team-index-two .team-type-left {
+  background-color: #ffffff;
+  overflow: hidden;
+  padding: 2.625rem 0;
+  display: flex;
+}
+.baishu .content .team-index-two .team-type-left .img-box {
+  width: 52%;
+  float: right;
+  overflow: hidden;
+}
+.baishu .content .team-index-two .team-type-left .img-box img {
+  width: 100%;
+}
+.baishu .content .team-index-two .team-type-left .text-box {
+  width: 48%;
+  float: right;
+  position: relative;
+  height: 100%;
+  padding-left: 2.5rem;
+}
+.baishu .content .team-index-two .team-type-left .text-box .title {
+  margin-bottom: 1.875rem;
+}
+.baishu .content .team-index-two .team-type-left .text-box .title h4 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333333;
+  margin-right: 1rem;
+  vertical-align: middle;
+  display: inline-block;
+}
+.baishu .content .team-index-two .team-type-left .text-box .title img {
+  width: 3.375rem;
+  vertical-align: middle;
+}
+.baishu .content .team-index-two .team-type-left .text-box .subTitle {
+  font-size: 1rem;
+}
+.baishu .content .team-index-two .team-type-left .text-box .subTitle p {
+  font-weight: 500;
+  color: #666666;
+  margin-bottom: 3.75rem;
+  line-height: 1.875rem;
+}
+.baishu .content .team-index-two .team-type-left .text-box .button-box .button {
+  width: 9.375rem;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  background-color: #0265FF;
+  border-radius: 1.5625rem;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+.baishu .content .team-index-two .team-type-left .text-box .button-box .button a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.baishu .content .team-index-two .team-type-left .text-box .button-box .button:hover {
+  background-color: #0252CC;
+  transition: background-color 0.3s;
+}
+.baishu .content .team-index-two .team-type-left .text-box .adornImg {
+  width: 8.125rem;
+  position: absolute;
+  bottom: 0;
+  right: 4.25rem;
+  -webkit-animation: jump 3s infinite;
+  animation: jump 3s infinite;
+}
+.baishu .content .team-index-two .team-type-left .text-box .adornImg img {
+  width: 100%;
+}
+.baishu .content .team-index-two .team-type-right {
+  background-color: #FAFAFA;
+  overflow: hidden;
+  padding: 2.625rem 0;
+  display: flex;
+}
+.baishu .content .team-index-two .team-type-right .img-box {
+  width: 52%;
+  float: left;
+  overflow: hidden;
+}
+.baishu .content .team-index-two .team-type-right .img-box img {
+  width: 100%;
+}
+.baishu .content .team-index-two .team-type-right.bigImg .img-box {
+  overflow: unset;
+  position: relative;
+  height: 31.25rem;
+}
+.baishu .content .team-index-two .team-type-right.bigImg .img-box img {
+  width: 128%;
+  position: absolute;
+  left: -28%;
+  top: 0;
+}
+.baishu .content .team-index-two .team-type-right .text-box {
+  width: 48%;
+  float: left;
+  position: relative;
+  height: 100%;
+  padding-right: 2.5rem;
+}
+.baishu .content .team-index-two .team-type-right .text-box .title {
+  margin-bottom: 1.875rem;
+}
+.baishu .content .team-index-two .team-type-right .text-box .title h4 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333333;
+  margin-right: 1rem;
+  vertical-align: middle;
+  display: inline-block;
+}
+.baishu .content .team-index-two .team-type-right .text-box .title img {
+  width: 3.375rem;
+  vertical-align: middle;
+}
+.baishu .content .team-index-two .team-type-right .text-box .subTitle {
+  font-size: 1rem;
+}
+.baishu .content .team-index-two .team-type-right .text-box .subTitle p {
+  font-weight: 500;
+  color: #666666;
+  margin-bottom: 3.75rem;
+  line-height: 1.875rem;
+}
+.baishu .content .team-index-two .team-type-right .text-box .button-box .button {
+  width: 9.375rem;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  background-color: #0265FF;
+  border-radius: 1.5625rem;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+.baishu .content .team-index-two .team-type-right .text-box .button-box .button a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.baishu .content .team-index-two .team-type-right .text-box .button-box .button:hover {
+  background-color: #0252CC;
+  transition: background-color 0.3s;
+}
+.baishu .content .team-index-two .team-type-right .text-box .adornImg {
+  width: 8.125rem;
+  position: absolute;
+  bottom: 0;
+  left: 4.25rem;
+  -webkit-animation: jump 3s infinite;
+  animation: jump 3s infinite;
+}
+.baishu .content .team-index-two .team-type-right .text-box .adornImg img {
+  width: 100%;
+}
+.baishu .content .team-index-three {
+  padding-top: 5rem;
+  padding-bottom: 7.5rem;
+  background: linear-gradient(360deg, rgba(250, 253, 255, 0) 0%, #F2F9FF 100%);
+}
+.baishu .content .team-index-three .six-box {
+  overflow: hidden;
+}
+.baishu .content .team-index-three .six-box .img-box {
+  width: 50%;
+  float: left;
+}
+.baishu .content .team-index-three .six-box .img-box img {
+  width: 100%;
+}
+.baishu .content .team-index-three .six-box .cont-box {
+  width: 50%;
+  float: left;
+  padding-top: 4rem;
+}
+.baishu .content .team-index-three .six-box .cont-box .contText {
+  display: inline-block;
+}
+.baishu .content .team-index-three .six-box .cont-box .contText .text-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 2.25rem;
+}
+.baishu .content .team-index-three .six-box .cont-box .contText .button-box {
+  width: 9.375rem;
+  height: 3.125rem;
+  background: #0265FF;
+  border-radius: 1.5625rem;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.baishu .content .team-index-three .six-box .cont-box .contText .button-box a {
+  line-height: 3.125rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.baishu .content .team-index-three .six-box .cont-box .contText .button-box:hover {
+  transition: all 0.3s;
+  background-color: #0252CC;
+}
+@media (max-width: 768px) {
+  html .baishu .content .team-index-one {
+    background: transparent;
+  }
+  html .baishu .content .team-index-one .team-left-box {
+    width: 100%;
+    margin-bottom: 1.25rem;
+    padding-right: 0;
+    padding-top: 0;
+  }
+  html .baishu .content .team-index-one .team-left-box .title h1 {
+    font-size: 2.25rem;
+  }
+  html .baishu .content .team-index-one .team-right-box {
+    width: 100%;
+    padding-left: 0;
+  }
+  html .baishu .content .team-index-two {
+    padding-top: 0;
+  }
+  html .baishu .content .team-index-two .team-type-left {
+    display: block;
+  }
+  html .baishu .content .team-index-two .team-type-left .text-box {
+    width: 100%;
+    padding-left: 0;
+  }
+  html .baishu .content .team-index-two .team-type-left .text-box .title h4 {
+    font-size: 2.125rem;
+  }
+  html .baishu .content .team-index-two .team-type-left .text-box .title img {
+    width: 3rem;
+  }
+  html .baishu .content .team-index-two .team-type-left .text-box .subTitle {
+    margin-bottom: 2.5rem;
+  }
+  html .baishu .content .team-index-two .team-type-left .text-box .button-box {
+    margin-bottom: 1.25rem;
+  }
+  html .baishu .content .team-index-two .team-type-left .text-box .adornImg {
+    left: auto;
+    right: 1.25rem;
+    display: none;
+  }
+  html .baishu .content .team-index-two .team-type-left .img-box {
+    width: 100%;
+  }
+  html .baishu .content .team-index-two .team-type-right {
+    display: block;
+  }
+  html .baishu .content .team-index-two .team-type-right .text-box {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  html .baishu .content .team-index-two .team-type-right .text-box .title h4 {
+    font-size: 2.125rem;
+  }
+  html .baishu .content .team-index-two .team-type-right .text-box .title img {
+    width: 3rem;
+  }
+  html .baishu .content .team-index-two .team-type-right .text-box .subTitle {
+    margin-bottom: 2.5rem;
+  }
+  html .baishu .content .team-index-two .team-type-right .text-box .button-box {
+    margin-bottom: 1.25rem;
+  }
+  html .baishu .content .team-index-two .team-type-right .text-box .adornImg {
+    left: auto;
+    right: 1.25rem;
+    display: none;
+  }
+  html .baishu .content .team-index-two .team-type-right .img-box {
+    width: 100%;
+  }
+  html .baishu .content .team-index-three .six-box .img-box {
+    width: 100%;
+  }
+  html .baishu .content .team-index-three .six-box .cont-box {
+    width: 100%;
+  }
+  html .baishu .content .team-index-three .six-box .cont-box .contText {
+    display: block;
+    text-align: center;
+  }
+  html .baishu .content .team-index-three .six-box .cont-box .contText .text-title {
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+  }
+}

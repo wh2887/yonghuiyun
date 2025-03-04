@@ -1,0 +1,403 @@
+.baishu .content {
+  padding-top: 4.5rem;
+}
+.baishu .content .view-index-one {
+  background: url(../img/bg_gongneng@2x.png) no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 7.25rem 0;
+}
+.baishu .content .view-index-one .view-left-box {
+  width: 43%;
+  float: left;
+}
+.baishu .content .view-index-one .view-left-box .title {
+  margin-bottom: 1.25rem;
+}
+.baishu .content .view-index-one .view-left-box .title h1 {
+  font-size: 3.75rem;
+  font-weight: bold;
+  color: #333333;
+  letter-spacing: 0.125rem;
+}
+.baishu .content .view-index-one .view-left-box .subTitle {
+  position: relative;
+  padding-left: 4.375rem;
+  margin-bottom: 1.875rem;
+}
+.baishu .content .view-index-one .view-left-box .subTitle h2 {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #333333;
+  letter-spacing: 1px;
+}
+.baishu .content .view-index-one .view-left-box .subTitle:before {
+  content: "";
+  position: absolute;
+  width: 3.75rem;
+  height: 0.375rem;
+  background-color: #0265FF;
+  left: 0;
+  top: calc(50% - 0.1875rem);
+}
+.baishu .content .view-index-one .view-left-box .textDetails {
+  margin-bottom: 3.75rem;
+}
+.baishu .content .view-index-one .view-left-box .textDetails p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #666666;
+  line-height: 2.25rem;
+}
+.baishu .content .view-index-one .view-left-box .button-box .button {
+  width: 9.375rem;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  background-color: #0265FF;
+  border-radius: 1.5625rem;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+.baishu .content .view-index-one .view-left-box .button-box .button a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.baishu .content .view-index-one .view-left-box .button-box .button:hover {
+  background-color: #0252CC;
+  transition: background-color 0.3s;
+}
+.baishu .content .view-index-one .view-right-box {
+  width: 57%;
+  float: left;
+  padding-left: 2.5rem;
+}
+.baishu .content .view-index-one .view-right-box .video-box {
+  width: 100%;
+}
+.baishu .content .view-index-one .view-right-box .video-box video {
+  background: url(../img/img_sp_shitu@2x.png) no-repeat top center;
+  background-size: 100%;
+}
+.baishu .content .view-index-one .view-right-box .video-box .ckin__fullscreen video {
+  background: url(../img/img_sp_shitu@2x.png) no-repeat center;
+  background-size: 100%;
+}
+.baishu .content .view-index-two {
+  padding: 3.625rem 0;
+}
+.baishu .content .view-index-two .view-type-left {
+  background-color: #ffffff;
+  overflow: hidden;
+  padding: 2.625rem 0;
+  display: flex;
+}
+.baishu .content .view-index-two .view-type-left .img-box {
+  width: 58%;
+  float: right;
+  overflow: hidden;
+}
+.baishu .content .view-index-two .view-type-left .img-box img {
+  width: 100%;
+}
+.baishu .content .view-index-two .view-type-left .text-box {
+  width: 42%;
+  float: right;
+  position: relative;
+  height: 100%;
+  padding-left: 2.5rem;
+}
+.baishu .content .view-index-two .view-type-left .text-box .title {
+  margin-bottom: 1.25rem;
+}
+.baishu .content .view-index-two .view-type-left .text-box .title h4 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333333;
+  margin-right: 1rem;
+  vertical-align: middle;
+  display: inline-block;
+}
+.baishu .content .view-index-two .view-type-left .text-box .title img {
+  width: 3.375rem;
+  vertical-align: middle;
+}
+.baishu .content .view-index-two .view-type-left .text-box .subTitle {
+  margin-bottom: 3.75rem;
+}
+.baishu .content .view-index-two .view-type-left .text-box .subTitle p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #666666;
+  line-height: 1.875rem;
+}
+.baishu .content .view-index-two .view-type-left .text-box .button-box .button {
+  width: 9.375rem;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  background-color: #0265FF;
+  border-radius: 1.5625rem;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+.baishu .content .view-index-two .view-type-left .text-box .button-box .button a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.baishu .content .view-index-two .view-type-left .text-box .button-box .button:hover {
+  background-color: #0252CC;
+  transition: background-color 0.3s;
+}
+.baishu .content .view-index-two .view-type-left .text-box .adornImg {
+  width: 8.125rem;
+  position: absolute;
+  bottom: 0;
+  right: 4.25rem;
+  -webkit-animation: jump 3s infinite;
+  animation: jump 3s infinite;
+}
+.baishu .content .view-index-two .view-type-left .text-box .adornImg img {
+  width: 100%;
+}
+.baishu .content .view-index-two .view-type-right {
+  background-color: #FAFAFA;
+  overflow: hidden;
+  padding: 2.625rem 0;
+  display: flex;
+}
+.baishu .content .view-index-two .view-type-right .img-box {
+  width: 58%;
+  float: left;
+  overflow: hidden;
+}
+.baishu .content .view-index-two .view-type-right .img-box img {
+  width: 100%;
+}
+.baishu .content .view-index-two .view-type-right.bigImg .img-box {
+  overflow: unset;
+  position: relative;
+  height: 31.25rem;
+}
+.baishu .content .view-index-two .view-type-right.bigImg .img-box img {
+  width: 128%;
+  position: absolute;
+  left: -28%;
+  top: 0;
+}
+.baishu .content .view-index-two .view-type-right .text-box {
+  width: 42%;
+  float: left;
+  position: relative;
+  height: 100%;
+}
+.baishu .content .view-index-two .view-type-right .text-box .title {
+  margin-bottom: 1.25rem;
+}
+.baishu .content .view-index-two .view-type-right .text-box .title h4 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333333;
+  margin-right: 1rem;
+  vertical-align: middle;
+  display: inline-block;
+}
+.baishu .content .view-index-two .view-type-right .text-box .title img {
+  width: 3.375rem;
+  vertical-align: middle;
+}
+.baishu .content .view-index-two .view-type-right .text-box .subTitle {
+  margin-bottom: 3.75rem;
+}
+.baishu .content .view-index-two .view-type-right .text-box .subTitle p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #666666;
+  line-height: 1.875rem;
+}
+.baishu .content .view-index-two .view-type-right .text-box .button-box .button {
+  width: 9.375rem;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  background-color: #0265FF;
+  border-radius: 1.5625rem;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+.baishu .content .view-index-two .view-type-right .text-box .button-box .button a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.baishu .content .view-index-two .view-type-right .text-box .button-box .button:hover {
+  background-color: #0252CC;
+  transition: background-color 0.3s;
+}
+.baishu .content .view-index-two .view-type-right .text-box .adornImg {
+  width: 8.125rem;
+  position: absolute;
+  bottom: 0;
+  left: 4.25rem;
+  -webkit-animation: jump 3s infinite;
+  animation: jump 3s infinite;
+}
+.baishu .content .view-index-two .view-type-right .text-box .adornImg img {
+  width: 100%;
+}
+.baishu .content .view-index-three {
+  padding-top: 5rem;
+  padding-bottom: 7.5rem;
+  background: linear-gradient(360deg, rgba(250, 253, 255, 0) 0%, #F2F9FF 100%);
+}
+.baishu .content .view-index-three .six-box {
+  overflow: hidden;
+}
+.baishu .content .view-index-three .six-box .img-box {
+  width: 50%;
+  float: left;
+}
+.baishu .content .view-index-three .six-box .img-box img {
+  width: 100%;
+}
+.baishu .content .view-index-three .six-box .cont-box {
+  width: 50%;
+  float: left;
+  padding-top: 4rem;
+}
+.baishu .content .view-index-three .six-box .cont-box .contText {
+  display: inline-block;
+}
+.baishu .content .view-index-three .six-box .cont-box .contText .text-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 2.25rem;
+}
+.baishu .content .view-index-three .six-box .cont-box .contText .button-box {
+  width: 9.375rem;
+  height: 3.125rem;
+  background: #0265FF;
+  border-radius: 1.5625rem;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.baishu .content .view-index-three .six-box .cont-box .contText .button-box a {
+  line-height: 3.125rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.baishu .content .view-index-three .six-box .cont-box .contText .button-box:hover {
+  transition: all 0.3s;
+  background-color: #0252CC;
+}
+@media (max-width: 768px) {
+  html .baishu .content .view-index-one {
+    padding: 5rem 0 2.375rem;
+  }
+  html .baishu .content .view-index-one .view-left-box {
+    width: 100%;
+    margin-bottom: 1.875rem;
+  }
+  html .baishu .content .view-index-one .view-left-box .title h1 {
+    font-size: 2.25rem;
+  }
+  html .baishu .content .view-index-one .view-left-box .subTitle h2 {
+    font-size: 1.625rem;
+  }
+  html .baishu .content .view-index-one .view-left-box .textDetails p {
+    line-height: 1.75rem;
+  }
+  html .baishu .content .view-index-one .view-right-box {
+    width: 100%;
+    padding-left: 0;
+  }
+  html .baishu .content .view-index-two {
+    padding-top: 0;
+  }
+  html .baishu .content .view-index-two .view-type-left {
+    display: block;
+  }
+  html .baishu .content .view-index-two .view-type-left .text-box {
+    width: 100%;
+    padding-left: 0;
+  }
+  html .baishu .content .view-index-two .view-type-left .text-box .title h4 {
+    font-size: 2.125rem;
+  }
+  html .baishu .content .view-index-two .view-type-left .text-box .title img {
+    width: 3rem;
+  }
+  html .baishu .content .view-index-two .view-type-left .text-box .subTitle {
+    margin-bottom: 2.5rem;
+  }
+  html .baishu .content .view-index-two .view-type-left .text-box .button-box {
+    margin-bottom: 1.25rem;
+  }
+  html .baishu .content .view-index-two .view-type-left .text-box .adornImg {
+    left: auto;
+    right: 1.25rem;
+    display: none;
+  }
+  html .baishu .content .view-index-two .view-type-left .img-box {
+    width: 100%;
+  }
+  html .baishu .content .view-index-two .view-type-right {
+    display: block;
+  }
+  html .baishu .content .view-index-two .view-type-right .text-box {
+    width: 100%;
+    padding-left: 0;
+  }
+  html .baishu .content .view-index-two .view-type-right .text-box .title h4 {
+    font-size: 2.125rem;
+  }
+  html .baishu .content .view-index-two .view-type-right .text-box .title img {
+    width: 3rem;
+  }
+  html .baishu .content .view-index-two .view-type-right .text-box .subTitle {
+    margin-bottom: 2.5rem;
+  }
+  html .baishu .content .view-index-two .view-type-right .text-box .button-box {
+    margin-bottom: 1.25rem;
+  }
+  html .baishu .content .view-index-two .view-type-right .text-box .adornImg {
+    left: auto;
+    right: 1.25rem;
+    display: none;
+  }
+  html .baishu .content .view-index-two .view-type-right .img-box {
+    width: 100%;
+  }
+  html .baishu .content .view-index-three .six-box .img-box {
+    width: 100%;
+  }
+  html .baishu .content .view-index-three .six-box .cont-box {
+    width: 100%;
+  }
+  html .baishu .content .view-index-three .six-box .cont-box .contText {
+    display: block;
+    text-align: center;
+  }
+  html .baishu .content .view-index-three .six-box .cont-box .contText .text-title {
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+  }
+}

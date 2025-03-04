@@ -1,0 +1,543 @@
+body {
+  font-family: "Helvetica Neue", "Calibri Light", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.02em;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.ckin__player {
+  margin-bottom: 1.25rem;
+  font-family: "Helvetica Neue", "Calibri Light", Roboto, sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.ckin__player:hover .default__controls{
+  z-index: 100;
+  -ms-transform: translateY(0);
+  transform: translateY(0)!important;
+}
+
+.ckin__player.ckin__fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10000000;
+  background: #000;
+  border-radius: 0 !important;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ckin__overlay {
+  position: relative;
+}
+
+.ckin__overlay:before {
+  background: radial-gradient(ellipse at center, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
+}
+
+.ckin__overlay--2:before {
+  background: rgba(24, 24, 24, 0.8);
+}
+
+.default {
+  border: 0 solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.125rem 2.75rem 0 rgba(0, 0, 0, 0.08);
+  position: relative;
+  font-size: 0;
+  overflow: hidden;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+}
+
+.default:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 0.3125rem;
+  transition: opacity .2s;
+  opacity: 1;
+  visibility: visible;
+}
+
+.default__title {
+  position: absolute;
+  left: 1.25rem;
+  top: 1.25rem;
+  z-index: 1;
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-style: italic;
+}
+
+.default__button {
+  background: none;
+  border: 0;
+  line-height: 1;
+  color: #ffffff;
+  outline: 0;
+  padding: 0;
+  cursor: pointer;
+  -ms-flex-pack: center;
+      justify-content: center;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 2.125rem;
+  font-size: 1.75rem;
+}
+
+.default__button.volume{
+  margin-right: 0.25rem;
+}
+
+.default__button i {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.default__button--big {
+  background: none;
+  border: 0;
+  color: #ffffff;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 50%;
+  outline: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  opacity: 1;
+  visibility: visible;
+  width: 3.75rem;
+  height: 3.75rem;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%) scale(1);
+      transform: translate(-50%, -50%) scale(1);
+  font-size: 1.25rem;
+  transition: all .2s;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+}
+
+.default__slider {
+  width: 0.625rem;
+  height: 1.875rem;
+}
+
+.default__controls {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transition: all .3s;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.45) 0%, transparent 100%);
+  font-size: 2rem;
+  padding: 0.625rem 0.625rem 0;
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  border-radius: 0 0 0.3125rem 0.3125rem;
+}
+
+.video-btn{
+  display: flex;
+  justify-content: space-between;
+}
+.left-btn .default__button{
+  font-size: 0.875rem;
+  padding: 0.625rem;
+}
+.right-btn{
+  display: flex;
+}
+
+.default.is-playing:before {
+  opacity: 0;
+  visibility: hidden;
+  -ms-transform: translate(-50%, -50%) scale(1.3);
+      transform: translate(-50%, -50%) scale(1.3);
+}
+
+.default.is-playing .default__button--big {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.default.is-playing .default__controls {
+  -ms-transform: translateY(4.25rem);
+      transform: translateY(4.25rem);
+}
+
+.default .default__controls {
+  z-index: 100;
+  -ms-transform: translateY(0);
+      transform: translateY(0);
+}
+
+.default__controls > * {
+  -ms-flex: 1;
+      flex: 1;
+}
+
+.default .progress {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  height: 0.25rem;
+  margin-bottom: 0!important;
+  transition: height 0.3s;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+.default .progress__filled {
+  width: 0%;
+  background: #0265FF;
+  -ms-flex: 0;
+      flex: 0;
+  -ms-flex-preferred-size: 0%;
+      flex-basis: 0%;
+  border-radius: 0.25rem;
+}
+
+.minimal {
+  border: 0 solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.2);
+  position: relative;
+  font-size: 0;
+  overflow: hidden;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+}
+
+.minimal:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 0.3125rem;
+  transition: opacity .2s;
+  opacity: 1;
+  visibility: visible;
+}
+
+.minimal__title {
+  position: absolute;
+  left: 1.25rem;
+  top: 1.25rem;
+  z-index: 1;
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-style: italic;
+}
+
+.minimal__button {
+  background: none;
+  border: 0;
+  line-height: 1;
+  color: rgba(16, 55, 213, 0.8);
+  outline: 0;
+  padding: 0;
+  cursor: pointer;
+  -ms-flex-pack: center;
+      justify-content: center;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 3.125rem;
+}
+
+.minimal__button i {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.minimal__button--big {
+  background: none;
+  border: 0;
+  line-height: 1;
+  color: rgba(16, 55, 213, 0.8);
+  text-align: center;
+  outline: 0;
+  padding: 0;
+  cursor: pointer;
+  position: absolute;
+  opacity: 1;
+  visibility: visible;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%) scale(1);
+      transform: translate(-50%, -50%) scale(1);
+  font-size: 4rem;
+  transition: all .2s ease-in;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+}
+
+.minimal__slider {
+  width: 0.625rem;
+  height: 1.875rem;
+}
+
+.minimal__controls {
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transition: all .3s;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #242424;
+  font-size: 2rem;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 0.625rem;
+  -ms-transform: translateY(0);
+      transform: translateY(0);
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  border-radius: 0 0 0.3125rem 0.3125rem;
+}
+
+.minimal.is-playing:before {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.minimal.is-playing .minimal__button--big {
+  opacity: 0;
+  visibility: hidden;
+  -ms-transform: translate(-50%, -50%) scale(1.3);
+      transform: translate(-50%, -50%) scale(1.3);
+}
+
+.minimal.is-playing .minimal__controls {
+  -ms-transform: translateY(3.25rem);
+      transform: translateY(3.25rem);
+}
+
+.minimal.is-playing:hover .minimal__controls {
+  -ms-transform: translateY(0);
+      transform: translateY(0);
+}
+
+.minimal__controls > * {
+  -ms-flex: 1;
+      flex: 1;
+}
+
+.minimal .progress {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  height: 0.625rem;
+  transition: height 0.3s;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+.minimal .progress__filled {
+  width: 0%;
+  background: rgba(16, 55, 213, 0.8);
+  -ms-flex: 0;
+      flex: 0;
+  -ms-flex-preferred-size: 0%;
+      flex-basis: 0%;
+  border-radius: 0.25rem;
+}
+
+.compact {
+  border: 0 solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.2);
+  position: relative;
+  font-size: 0;
+  overflow: hidden;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+}
+
+.compact:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 0.3125rem;
+  transition: opacity .2s;
+  opacity: 1;
+  visibility: visible;
+}
+
+.compact__title {
+  position: absolute;
+  left: 1.25rem;
+  top: 1.25rem;
+  z-index: 1;
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.compact__button {
+  background: none;
+  border: 0;
+  line-height: 1;
+  color: rgba(16, 55, 213, 0.8);
+  outline: 0;
+  padding: 0;
+  cursor: pointer;
+  -ms-flex-pack: center;
+      justify-content: center;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 3.125rem;
+}
+
+.compact__button i {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.compact__button--big {
+  background: none;
+  border: 0;
+  line-height: 1;
+  color: rgba(16, 55, 213, 0.8);
+  text-align: center;
+  outline: 0;
+  padding: 0;
+  cursor: pointer;
+  position: absolute;
+  opacity: 1;
+  visibility: visible;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%) scale(1);
+      transform: translate(-50%, -50%) scale(1);
+  font-size: 4rem;
+  transition: all .2s ease-in;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+}
+
+.compact__slider {
+  width: 0.625rem;
+  height: 1.875rem;
+}
+
+.compact__controls {
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  max-width: 25rem;
+  bottom: 0;
+  right: 0;
+  left: 50%;
+  transition: all .3s;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #242424;
+  font-size: 2rem;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 0.625rem;
+  -ms-transform: translateY(-1.25rem) translateX(-50%);
+      transform: translateY(-1.25rem) translateX(-50%);
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  border-radius: 0.3125rem;
+}
+
+.compact.is-playing:before {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.compact.is-playing .compact__button--big {
+  opacity: 0;
+  visibility: hidden;
+  -ms-transform: translate(-50%, -50%) scale(1.3);
+      transform: translate(-50%, -50%) scale(1.3);
+}
+
+.compact.is-playing .compact__controls {
+  -ms-transform: translateY(3.25rem) translateX(-50%);
+      transform: translateY(3.25rem) translateX(-50%);
+}
+
+.compact.is-playing:hover .compact__controls {
+  -ms-transform: translateY(-1.25rem) translateX(-50%);
+      transform: translateY(-1.25rem) translateX(-50%);
+}
+
+.compact__controls > * {
+  -ms-flex: 1;
+      flex: 1;
+}
+
+.compact .progress {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  height: 0.625rem;
+  transition: height 0.3s;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+.compact .progress__filled {
+  width: 0%;
+  background: rgba(16, 55, 213, 0.8);
+  -ms-flex: 0;
+      flex: 0;
+  -ms-flex-preferred-size: 0%;
+      flex-basis: 0%;
+  border-radius: 0.25rem;
+}
+
+@media (max-width: 480px) {
+  .default__button--big i {
+    font-size: 1.125rem!important;
+  }
+  .default__button {
+    max-width: 3.125rem;
+    font-size: 2rem;
+  }
+  .left-btn .default__button i{
+    font-size: 1.125rem!important;
+  }
+  .default .progress{
+    height: 4px;
+
+  }
+}
+
+video::-webkit-media-controls-enclosure {
+  display: none !important;
+}

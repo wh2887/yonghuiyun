@@ -1,0 +1,90 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-04-06 20:52:42
+ * @LastEditTime: 2021-04-07 19:20:58
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \BSIndex(5)\errors\404.html
+-->
+<html><head>
+	<meta charset="UTF-8">
+	<title>该页面不存在</title>
+    <link rel="shortcut icon" href="../favicon.ico">
+<style type="text/css">
+    a{  
+        text-decoration:none; 
+        cursor:pointer; 
+        outline:none; 
+        text-decoration-line: none;
+        color:#666;
+    }
+    a, area {
+        outline:none; 
+        blr:expression(this.onFocus=this.blur())
+    } 
+    a:hover{ 
+        text-decoration:none;
+    }
+	.error-box{
+		display: flex;
+		justify-content: center;
+		position: relative;
+		height: 100%;
+		width: 100%;
+		align-items: center;
+		overflow: hidden;
+	}
+	.error{
+		padding: 160px 266px 100px;
+		overflow: hidden;
+		background: url(/errors/bg_404.png) no-repeat bottom center;
+		background-size: 100% 100%;
+	}
+	.error img{
+		width: 330px;
+		display: block;
+		margin:0 auto;
+	}
+	.error .title{
+		text-align: center;
+		font-size: 24px ! important;
+		font-weight: 800;
+		color: #333333;
+		margin-top: 72px;
+	}
+	.error .text{
+		font-size: 14px;
+		font-weight: 500;
+		color: #999999;
+		text-align: center;
+	}
+	.back{
+		display: block;
+		width:113px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		margin:24px auto;
+		border-radius: 4px;
+		cursor: pointer;
+		color:#fff;
+		transition: background-color .3s;
+		background-color: #0265FF;
+	}
+	.back:hover{
+		background-color: #1C2FD1;
+	}
+</style></head>
+
+<body>
+<div class="error-box">
+	<div class="error">
+		<img src="/errors/404.png">
+		<p class="title">呀，页面不小心迷路了</p>
+		<p class="text">请重新输入地址，或刷新界面</p>
+		<a class="back" href="https://www.baishuyun.com/">返回首页</a>
+	</div>
+</div>
+</body>
+</html>
+	

@@ -1,0 +1,5 @@
+ErrorDocument 404  /errors/404.html
+
+RewriteEngine On
+    RewriteRule ^.git - [F,L]
+	RewriteRule ^.svn - [F,L]

@@ -1,0 +1,530 @@
+.baishu .content {
+  padding-top: 4.5rem;
+}
+.baishu .content .about-one-box {
+  background: url(../img/bg_qianfanshu@2x.jpg) no-repeat bottom center;
+  background-size: cover;
+  padding: 14.5rem 0;
+}
+.baishu .content .about-one-box .text-box {
+  width: 39.5rem;
+}
+.baishu .content .about-one-box .text-box .title {
+  margin-bottom: 1.875rem;
+}
+.baishu .content .about-one-box .text-box .title h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333333;
+  letter-spacing: 0.128125rem;
+}
+.baishu .content .about-one-box .text-box .text p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #666666;
+  line-height: 2rem;
+}
+.baishu .content .about-title {
+  position: relative;
+  padding-left: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+.baishu .content .about-title:before {
+  content: '';
+  position: absolute;
+  width: 0.5rem;
+  height: 2rem;
+  left: 0;
+  top: calc(50% - 0.875rem);
+  background-color: #0265FF;
+}
+.baishu .content .about-title h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #333333;
+}
+.baishu .content .about-two-box {
+  margin-top: 5rem;
+  margin-bottom: 6.875rem;
+}
+.baishu .content .about-two-box .about-cont p {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #666666;
+  line-height: 2rem;
+  text-indent: 2em;
+}
+.baishu .content .about-three-box {
+  margin-bottom: 4.25rem;
+}
+.baishu .content .about-three-box .about-cont .about-list ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.baishu .content .about-three-box .about-cont .about-list ul li {
+  width: calc(33.33% - 1.375rem);
+  margin-right: 2.0625rem;
+  margin-bottom: 2rem;
+}
+.baishu .content .about-three-box .about-cont .about-list ul li:nth-child(3n) {
+  margin-right: 0;
+}
+.baishu .content .about-three-box .about-cont .about-list ul li .item {
+  padding: 1rem 1.25rem 0 0;
+  min-height: 20.1875rem;
+  box-shadow: 0 0.125rem 0.875rem 0 rgba(0, 0, 0, 0.1);
+  border-radius: 0.375rem;
+}
+.baishu .content .about-three-box .about-cont .about-list ul li .item .img-box {
+  width: 10rem;
+  height: 8.375rem;
+}
+.baishu .content .about-three-box .about-cont .about-list ul li .item .img-box img {
+  width: 100%;
+  height: 100%;
+}
+.baishu .content .about-three-box .about-cont .about-list ul li .item .title-box {
+  margin-bottom: 1.125rem;
+  padding-left: 1.25rem;
+}
+.baishu .content .about-three-box .about-cont .about-list ul li .item .title-box h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  letter-spacing: 0.064375rem;
+}
+.baishu .content .about-three-box .about-cont .about-list ul li .item .text-box {
+  padding-left: 1.25rem;
+}
+.baishu .content .about-three-box .about-cont .about-list ul li .item .text-box p {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 1.625rem;
+}
+.baishu .content .about-four-box {
+  background: url(../img/bg_fazhanlichen.jpg) no-repeat bottom right;
+  background-size: cover;
+  padding-top: 3.75rem;
+  padding-bottom: 5.5rem;
+  position: relative;
+}
+.baishu .content .about-four-box .container {
+  position: relative;
+  z-index: 2;
+}
+.baishu .content .about-four-box .container .about-title h2 {
+  color: #ffffff;
+}
+.baishu .content .about-four-box .container .mobile-box {
+  display: none;
+}
+.baishu .content .about-four-box .container .pc-box .one-box,
+.baishu .content .about-four-box .container .pc-box .two-box,
+.baishu .content .about-four-box .container .pc-box .three-box,
+.baishu .content .about-four-box .container .pc-box .four-box {
+  width: 50%;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  /* Chrome */
+  -moz-transition: opacity 0.3s;
+  /* Firefox */
+  -ms-transition: opacity 0.3s;
+  /* IE */
+  -o-transition: opacity 0.3s;
+  /* Opera */
+  transition: opacity 0.3s;
+}
+.baishu .content .about-four-box .container .pc-box .one-box.active,
+.baishu .content .about-four-box .container .pc-box .two-box.active,
+.baishu .content .about-four-box .container .pc-box .three-box.active,
+.baishu .content .about-four-box .container .pc-box .four-box.active {
+  opacity: 1;
+}
+.baishu .content .about-four-box .container .pc-box .one-box .cont-box,
+.baishu .content .about-four-box .container .pc-box .two-box .cont-box,
+.baishu .content .about-four-box .container .pc-box .three-box .cont-box,
+.baishu .content .about-four-box .container .pc-box .four-box .cont-box {
+  width: 21rem;
+}
+.baishu .content .about-four-box .container .pc-box .one-box .cont-box .title-box,
+.baishu .content .about-four-box .container .pc-box .two-box .cont-box .title-box,
+.baishu .content .about-four-box .container .pc-box .three-box .cont-box .title-box,
+.baishu .content .about-four-box .container .pc-box .four-box .cont-box .title-box {
+  width: 7.8125rem;
+  height: 7.8125rem;
+  margin: 0 auto;
+}
+.baishu .content .about-four-box .container .pc-box .one-box .cont-box .title-box h5,
+.baishu .content .about-four-box .container .pc-box .two-box .cont-box .title-box h5,
+.baishu .content .about-four-box .container .pc-box .three-box .cont-box .title-box h5,
+.baishu .content .about-four-box .container .pc-box .four-box .cont-box .title-box h5 {
+  text-align: center;
+  line-height: 7.8125rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333333;
+}
+.baishu .content .about-four-box .container .pc-box .one-box .cont-box .date-box,
+.baishu .content .about-four-box .container .pc-box .two-box .cont-box .date-box,
+.baishu .content .about-four-box .container .pc-box .three-box .cont-box .date-box,
+.baishu .content .about-four-box .container .pc-box .four-box .cont-box .date-box {
+  margin: 1.25rem 0;
+}
+.baishu .content .about-four-box .container .pc-box .one-box .cont-box .date-box h4,
+.baishu .content .about-four-box .container .pc-box .two-box .cont-box .date-box h4,
+.baishu .content .about-four-box .container .pc-box .three-box .cont-box .date-box h4,
+.baishu .content .about-four-box .container .pc-box .four-box .cont-box .date-box h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.064375rem;
+}
+.baishu .content .about-four-box .container .pc-box .one-box .cont-box .text-list ul li,
+.baishu .content .about-four-box .container .pc-box .two-box .cont-box .text-list ul li,
+.baishu .content .about-four-box .container .pc-box .three-box .cont-box .text-list ul li,
+.baishu .content .about-four-box .container .pc-box .four-box .cont-box .text-list ul li {
+  padding-left: 1rem;
+  position: relative;
+  margin-bottom: 0.625rem;
+}
+.baishu .content .about-four-box .container .pc-box .one-box .cont-box .text-list ul li:last-child,
+.baishu .content .about-four-box .container .pc-box .two-box .cont-box .text-list ul li:last-child,
+.baishu .content .about-four-box .container .pc-box .three-box .cont-box .text-list ul li:last-child,
+.baishu .content .about-four-box .container .pc-box .four-box .cont-box .text-list ul li:last-child {
+  margin-bottom: 0;
+}
+.baishu .content .about-four-box .container .pc-box .one-box .cont-box .text-list ul li p,
+.baishu .content .about-four-box .container .pc-box .two-box .cont-box .text-list ul li p,
+.baishu .content .about-four-box .container .pc-box .three-box .cont-box .text-list ul li p,
+.baishu .content .about-four-box .container .pc-box .four-box .cont-box .text-list ul li p {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 1.625rem;
+}
+.baishu .content .about-four-box .container .pc-box .top-box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.baishu .content .about-four-box .container .pc-box .top-box .cont-box {
+  float: right;
+}
+.baishu .content .about-four-box .container .pc-box .top-box .two-box .title-box {
+  background: url(../img/img_licheng2@2x.png) no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: -3.875rem;
+}
+.baishu .content .about-four-box .container .pc-box .top-box .two-box .date-box h4 {
+  color: #0DD0DD;
+}
+.baishu .content .about-four-box .container .pc-box .top-box .two-box .text-list ul li:before {
+  content: '';
+  position: absolute;
+  width: 0.375rem;
+  height: 0.375rem;
+  border-radius: 50%;
+  background-color: #0DD0DD;
+  top: 0.625rem;
+  left: 0;
+}
+.baishu .content .about-four-box .container .pc-box .top-box .four-box .title-box {
+  background: url(../img/img_licheng4@2x.png) no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: -3.875rem;
+}
+.baishu .content .about-four-box .container .pc-box .top-box .four-box .date-box h4 {
+  color: #00FCFF;
+}
+.baishu .content .about-four-box .container .pc-box .top-box .four-box .text-list ul li:before {
+  content: '';
+  position: absolute;
+  width: 0.375rem;
+  height: 0.375rem;
+  border-radius: 50%;
+  background-color: #00FCFF;
+  top: 0.625rem;
+  left: 0;
+}
+.baishu .content .about-four-box .container .pc-box .bottom-box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.baishu .content .about-four-box .container .pc-box .bottom-box .cont-box {
+  float: left;
+}
+.baishu .content .about-four-box .container .pc-box .bottom-box .one-box .title-box {
+  background: url(../img/img_licheng1@2x.png) no-repeat;
+  background-size: 100% 100%;
+  margin-top: -3.875rem;
+}
+.baishu .content .about-four-box .container .pc-box .bottom-box .one-box .date-box h4 {
+  color: #FFE900;
+}
+.baishu .content .about-four-box .container .pc-box .bottom-box .one-box .text-list ul li:before {
+  content: '';
+  position: absolute;
+  width: 0.375rem;
+  height: 0.375rem;
+  border-radius: 50%;
+  background-color: #FFE900;
+  top: 0.625rem;
+  left: 0;
+}
+.baishu .content .about-four-box .container .pc-box .bottom-box .three-box .title-box {
+  background: url(../img/img_licheng3@2x.png) no-repeat;
+  background-size: 100% 100%;
+  margin-top: -3.875rem;
+}
+.baishu .content .about-four-box .container .pc-box .bottom-box .three-box .date-box h4 {
+  color: #FF7006;
+}
+.baishu .content .about-four-box .container .pc-box .bottom-box .three-box .text-list ul li:before {
+  content: '';
+  position: absolute;
+  width: 0.375rem;
+  height: 0.375rem;
+  border-radius: 50%;
+  background-color: #FF7006;
+  top: 0.625rem;
+  left: 0;
+}
+.baishu .content .about-four-box .mask-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+.baishu .content .about-four-box .line-time {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 0;
+  height: 0.1875rem;
+  background: #FFFFFF;
+  z-index: 1;
+  -webkit-transition: width 0.3s;
+  /* Chrome */
+  -moz-transition: width 0.3s;
+  /* Firefox */
+  -ms-transition: width 0.3s;
+  /* IE */
+  -o-transition: width 0.3s;
+  /* Opera */
+  transition: width 0.3s;
+}
+.baishu .content .about-five-box {
+  padding-top: 4.375rem;
+  margin-bottom: 5.625rem;
+}
+.baishu .content .about-five-box .about-cont {
+  width: calc(100% - 13.75rem);
+  margin: 0 auto;
+}
+.baishu .content .about-five-box .about-cont .img-title-box {
+  margin-top: 4.375rem;
+  margin-bottom: 1.875rem;
+}
+.baishu .content .about-five-box .about-cont .img-title-box img {
+  display: block;
+  margin: 0 auto;
+  width: calc(100% - 7.6875rem);
+}
+.baishu .content .about-five-box .about-cont .msg-box {
+  margin-bottom: 2.5rem;
+}
+.baishu .content .about-five-box .about-cont .msg-box p {
+  font-size: 1.625rem;
+  font-weight: 500;
+  color: #333333;
+  line-height: 2.3125rem;
+  letter-spacing: 0.0625rem;
+}
+.baishu .content .about-five-box .about-cont .img-cont-box img {
+  display: block;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  html .baishu .content .about-title:before {
+    height: 1.75rem;
+  }
+  html .baishu .content .about-title h2 {
+    font-size: 1.75rem;
+  }
+  html .baishu .content .about-one-box .text-box {
+    width: auto;
+  }
+  html .baishu .content .about-one-box .text-box .title h1 {
+    font-size: 1.75rem;
+  }
+  html .baishu .content .about-one-box .text-box .text p {
+    color: #555555;
+  }
+  html .baishu .content .about-three-box .about-cont .about-list ul li {
+    width: 100%;
+    margin-right: 0;
+  }
+  html .baishu .content .about-four-box .pc-box {
+    display: none;
+  }
+  html .baishu .content .about-four-box .mobile-box {
+    display: block!important;
+  }
+  html .baishu .content .about-four-box .mobile-box .one-box,
+  html .baishu .content .about-four-box .mobile-box .two-box,
+  html .baishu .content .about-four-box .mobile-box .three-box,
+  html .baishu .content .about-four-box .mobile-box .four-box {
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+  html .baishu .content .about-four-box .mobile-box .one-box .cont-box,
+  html .baishu .content .about-four-box .mobile-box .two-box .cont-box,
+  html .baishu .content .about-four-box .mobile-box .three-box .cont-box,
+  html .baishu .content .about-four-box .mobile-box .four-box .cont-box {
+    width: 100%;
+  }
+  html .baishu .content .about-four-box .mobile-box .one-box .cont-box .title-box,
+  html .baishu .content .about-four-box .mobile-box .two-box .cont-box .title-box,
+  html .baishu .content .about-four-box .mobile-box .three-box .cont-box .title-box,
+  html .baishu .content .about-four-box .mobile-box .four-box .cont-box .title-box {
+    width: 7.8125rem;
+    height: 7.8125rem;
+    margin: 0 auto;
+  }
+  html .baishu .content .about-four-box .mobile-box .one-box .cont-box .title-box h5,
+  html .baishu .content .about-four-box .mobile-box .two-box .cont-box .title-box h5,
+  html .baishu .content .about-four-box .mobile-box .three-box .cont-box .title-box h5,
+  html .baishu .content .about-four-box .mobile-box .four-box .cont-box .title-box h5 {
+    text-align: center;
+    line-height: 7.8125rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333333;
+  }
+  html .baishu .content .about-four-box .mobile-box .one-box .cont-box .date-box,
+  html .baishu .content .about-four-box .mobile-box .two-box .cont-box .date-box,
+  html .baishu .content .about-four-box .mobile-box .three-box .cont-box .date-box,
+  html .baishu .content .about-four-box .mobile-box .four-box .cont-box .date-box {
+    margin: 1.25rem 0;
+  }
+  html .baishu .content .about-four-box .mobile-box .one-box .cont-box .date-box h4,
+  html .baishu .content .about-four-box .mobile-box .two-box .cont-box .date-box h4,
+  html .baishu .content .about-four-box .mobile-box .three-box .cont-box .date-box h4,
+  html .baishu .content .about-four-box .mobile-box .four-box .cont-box .date-box h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.064375rem;
+  }
+  html .baishu .content .about-four-box .mobile-box .one-box .cont-box .text-list ul li,
+  html .baishu .content .about-four-box .mobile-box .two-box .cont-box .text-list ul li,
+  html .baishu .content .about-four-box .mobile-box .three-box .cont-box .text-list ul li,
+  html .baishu .content .about-four-box .mobile-box .four-box .cont-box .text-list ul li {
+    padding-left: 1rem;
+    position: relative;
+    margin-bottom: 0.625rem;
+  }
+  html .baishu .content .about-four-box .mobile-box .one-box .cont-box .text-list ul li:last-child,
+  html .baishu .content .about-four-box .mobile-box .two-box .cont-box .text-list ul li:last-child,
+  html .baishu .content .about-four-box .mobile-box .three-box .cont-box .text-list ul li:last-child,
+  html .baishu .content .about-four-box .mobile-box .four-box .cont-box .text-list ul li:last-child {
+    margin-bottom: 0;
+  }
+  html .baishu .content .about-four-box .mobile-box .one-box .cont-box .text-list ul li p,
+  html .baishu .content .about-four-box .mobile-box .two-box .cont-box .text-list ul li p,
+  html .baishu .content .about-four-box .mobile-box .three-box .cont-box .text-list ul li p,
+  html .baishu .content .about-four-box .mobile-box .four-box .cont-box .text-list ul li p {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 2rem;
+  }
+  html .baishu .content .about-four-box .mobile-box .two-box .title-box {
+    background: url(../img/img_licheng2@2x.png) no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: -3.875rem;
+  }
+  html .baishu .content .about-four-box .mobile-box .two-box .date-box h4 {
+    color: #0DD0DD;
+  }
+  html .baishu .content .about-four-box .mobile-box .two-box .text-list ul li:before {
+    content: '';
+    position: absolute;
+    width: 0.375rem;
+    height: 0.375rem;
+    border-radius: 50%;
+    background-color: #0DD0DD;
+    top: 0.625rem;
+    left: 0;
+  }
+  html .baishu .content .about-four-box .mobile-box .four-box .title-box {
+    background: url(../img/img_licheng4@2x.png) no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: -3.875rem;
+  }
+  html .baishu .content .about-four-box .mobile-box .four-box .date-box h4 {
+    color: #00FCFF;
+  }
+  html .baishu .content .about-four-box .mobile-box .four-box .text-list ul li:before {
+    content: '';
+    position: absolute;
+    width: 0.375rem;
+    height: 0.375rem;
+    border-radius: 50%;
+    background-color: #00FCFF;
+    top: 0.625rem;
+    left: 0;
+  }
+  html .baishu .content .about-four-box .mobile-box .one-box .title-box {
+    background: url(../img/img_licheng1@2x.png) no-repeat;
+    background-size: 100% 100%;
+    margin-top: -3.875rem;
+  }
+  html .baishu .content .about-four-box .mobile-box .one-box .date-box h4 {
+    color: #FFE900;
+  }
+  html .baishu .content .about-four-box .mobile-box .one-box .text-list ul li:before {
+    content: '';
+    position: absolute;
+    width: 0.375rem;
+    height: 0.375rem;
+    border-radius: 50%;
+    background-color: #FFE900;
+    top: 0.625rem;
+    left: 0;
+  }
+  html .baishu .content .about-four-box .mobile-box .three-box .title-box {
+    background: url(../img/img_licheng3@2x.png) no-repeat;
+    background-size: 100% 100%;
+    margin-top: -3.875rem;
+  }
+  html .baishu .content .about-four-box .mobile-box .three-box .date-box h4 {
+    color: #FF7006;
+  }
+  html .baishu .content .about-four-box .mobile-box .three-box .text-list ul li:before {
+    content: '';
+    position: absolute;
+    width: 0.375rem;
+    height: 0.375rem;
+    border-radius: 50%;
+    background-color: #FF7006;
+    top: 0.625rem;
+    left: 0;
+  }
+  html .baishu .content .about-five-box {
+    padding-top: 4.375rem;
+    margin-bottom: 5.625rem;
+  }
+  html .baishu .content .about-five-box .about-cont .img-box {
+    margin-top: 3.125rem;
+  }
+  html .baishu .content .about-five-box .about-cont .img-box img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+}

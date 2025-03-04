@@ -1,0 +1,1974 @@
+.baishu .container {
+  width: 1170px !important;
+  margin: 0;
+  padding: 0;
+}
+.baishu .header .navbar-default {
+  background: transparent;
+}
+.baishu .content .pricing-one-box {
+  width: 100%;
+  height: 389px;
+  background-image: url(../img/bg_dingtu@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+}
+.baishu .content .pricing-one-box img {
+  display: none;
+}
+.baishu .content .pricing-one-box .container {
+  height: 100%;
+  padding-top: 89px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.baishu .content .pricing-one-box .container .container-content {
+  width: 1087px;
+  height: 241px;
+  display: flex;
+  justify-content: center;
+  background-image: url(../img/img_pricingzhongjian@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.baishu .content .pricing-one-box .container .container-content .pricing-cont {
+  width: 1200px;
+  position: absolute;
+  left: 0;
+  top: 125px;
+}
+.baishu .content .pricing-one-box .container .container-content .pricing-cont .cont-title {
+  font-size: 44px;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 67px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.baishu .content .pricing-one-box .container .container-content .pricing-cont .cont-msg {
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 32px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.baishu .content .pricing-one-box .container .container-content .pricing-cont .cont-consult-btn {
+  display: block;
+  width: 128px;
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+  background-image: url(../img/anniu1@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #1628B0;
+  cursor: pointer;
+}
+.baishu .content .pricing-one-box .container .container-content .pricing-cont .cont-consult-btn:hover {
+  background-image: url(../img/anniu2@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.baishu .content .pricing-two-box {
+  width: 100%;
+  height: 152px;
+  background-color: #fff;
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  top: 11px;
+  left: 0;
+  z-index: 1;
+}
+.baishu .content .pricing-two-box .container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.baishu .content .pricing-two-box .container .container-content {
+  width: 100%;
+  height: 52px;
+  background-color: #1628B0;
+  border-radius: 74px;
+  display: flex;
+  align-items: center;
+}
+.baishu .content .pricing-two-box .container .container-content .pricing-menu-item {
+  width: calc(100% / 3);
+  height: 100%;
+  line-height: 52px;
+  text-align: center;
+  font-size: 20px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  border-radius: 74px;
+  cursor: pointer;
+}
+.baishu .content .pricing-two-box .container .container-content .pricing-menu-item.active {
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.baishu .content .pricing-two-box .container .container-content .pricing-menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.baishu .content .pricing-three-box {
+  width: 100%;
+  height: 715px;
+  background: #F8F8FA;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-title .title-icon {
+  width: 38px;
+  height: 38px;
+  background-image: url(../img/img_pricinggongyouyun@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 20px;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-title .title-text {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333333;
+  line-height: 50px;
+  letter-spacing: 1px;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left {
+  width: 100%;
+  height: 220px;
+  background: #1628B0;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-top {
+  width: 360px;
+  height: 100%;
+  background-image: url(../img/bg_gyy@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 20px 0;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-top .top-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 37px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-top .top-msg {
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-top .top-tip {
+  font-size: 32px;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 45px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-bottom {
+  width: calc(100% - 360px);
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-bottom .bottom-list {
+  width: 100%;
+  height: 148px;
+  display: flex;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-bottom .bottom-list .list-item {
+  width: 25%;
+  height: 100%;
+  padding: 23px 0;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-bottom .bottom-list .list-item .item-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-bottom .bottom-list .list-item .item-text {
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-bottom .bottom-list .list-item .item-text span {
+  font-size: 36px;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 50px;
+  letter-spacing: 1px;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-bottom .list-btn {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.3);
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-bottom .list-btn .bottom-btn {
+  width: 152px;
+  height: 42px;
+  background: #FFFFFF;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #1628B0;
+  text-align: center;
+  line-height: 42px;
+  cursor: pointer;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-bottom .list-btn .bottom-btn:hover {
+  opacity: 0.8;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right {
+  width: 100%;
+  margin-top: 30px;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-title {
+  margin-bottom: 20px;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-title .right-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-title .right-msg {
+  font-size: 14px;
+  font-weight: 500;
+  color: #666666;
+  line-height: 20px;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-list .list-item {
+  width: calc((100% - 60px * 2) / 3);
+  height: 238px;
+  margin-right: 60px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 24px 16px 0;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-list .list-item:first-child .item-pricing {
+  color: #FF5631;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-list .list-item:nth-child(3n) {
+  margin-right: 0;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-list .list-item .item-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-list .list-item .item-pricing {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FF9921;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #E0E0E0;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-list .list-item .item-begin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-list .list-item .item-begin .begin-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #4D609F;
+  line-height: 20px;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-list .list-item .item-tip {
+  width: 100%;
+  height: 80px;
+  padding: 15px 0;
+  font-size: 12px;
+  color: #666666;
+  line-height: 24px;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-list .list-item .item-btn {
+  display: block;
+  width: 97px;
+  height: 32px;
+  background: #3849CB;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 32px;
+  font-size: 14px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-list .list-item .item-btn.red {
+  background: #FF5631;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-list .list-item .item-btn:hover {
+  opacity: 0.8;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-list .list-item:hover {
+  background-image: url(../img/bg_gyyjiaohu@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-list .list-item:hover .item-title {
+  color: #fff;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-list .list-item:hover .item-pricing {
+  color: #fff;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-list .list-item:hover .item-tip {
+  color: #fff;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-list .list-item:hover .item-begin .begin-text {
+  color: #fff;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-list .list-item:hover .item-btn {
+  background: #fff;
+  color: #1628B0;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-list .list-item:hover .item-btn.red {
+  color: #fff;
+  background: #FF5631;
+}
+.baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-table {
+  display: none;
+}
+.baishu .content .pricing-four-box {
+  width: 100%;
+  height: 805px;
+  background: #FFFFFF;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-title .title-icon {
+  width: 38px;
+  height: 38px;
+  background-image: url(../img/bg_syy@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 20px;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-title .title-text {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333333;
+  line-height: 50px;
+  letter-spacing: 1px;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont {
+  display: flex;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-header {
+  width: 193px;
+  height: 634px;
+  background: #F2F2FB;
+  border-radius: 10px;
+  margin-right: 16px;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-header .header-top {
+  width: 100%;
+  height: 176px;
+  padding: 30px 16px 0;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-header .header-top .header-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333333;
+  line-height: 30px;
+  margin-bottom: 18px;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-header .header-top .header-msg {
+  font-size: 14px;
+  color: #666666;
+  line-height: 26px;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-header .header-pricing {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 18px;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-header .header-list {
+  padding: 0 16px;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-header .header-list .list-item {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-header .header-list .list-item:last-child {
+  margin-bottom: 0;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list {
+  display: flex;
+  width: calc(100% - 209px);
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item {
+  width: calc((100% - 16px * 3) / 4);
+  margin-right: 16px;
+  height: 634px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item:hover {
+  box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.2);
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item:last-child {
+  margin-right: 0;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item .item-top {
+  width: 100%;
+  height: 176px;
+  padding: 30px 16px 0;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item .item-top .item-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #343748;
+  line-height: 30px;
+  margin-bottom: 18px;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item .item-top .item-msg {
+  font-size: 14px;
+  color: #343748;
+  line-height: 26px;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item .item-pricing {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 18px;
+  padding: 20px 0 0 16px;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item .item-pricing .pricing-text {
+  font-size: 16px;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item .item-pricing .pricing-text span {
+  font-size: 36px;
+  font-weight: 500;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item .item-pricing .pricing-btn {
+  display: block;
+  width: 156px;
+  height: 46px;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 46px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item .pricing-list {
+  padding: 0 16px;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item .pricing-list .pricing-item {
+  font-size: 14px;
+  color: #333333;
+  line-height: 20px;
+  margin-bottom: 32px;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item .pricing-list .pricing-item.active {
+  font-weight: bold;
+  color: #BA7C3E;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item.one .item-top {
+  background-image: url(../img/bg_jcb@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item.one .item-top .item-title,
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item.one .item-top .item-msg {
+  color: #06559E;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item.one .item-pricing .pricing-btn {
+  background: #C2EFFF;
+  color: #06559E;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item.one .item-pricing .pricing-btn:hover {
+  color: #fff;
+  background: #06559E;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item.two .item-top {
+  background-image: url(../img/bg_bzb@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item.two .item-top .item-title,
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item.two .item-top .item-msg {
+  color: #343748;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item.two .item-pricing .pricing-btn {
+  background: #C7CEED;
+  color: #343748;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item.two .item-pricing .pricing-btn:hover {
+  color: #fff;
+  background: #343748;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item.three {
+  position: relative;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item.three .pricing-hot {
+  position: absolute;
+  width: 90px;
+  height: 62px;
+  background-image: url(../img/img_pricinghot@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: -46px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item.three .item-top {
+  background-image: url(../img/bg_zyb@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item.three .item-top .item-title,
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item.three .item-top .item-msg {
+  color: #221300;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item.three .item-pricing .pricing-btn {
+  background: #FAE4AE;
+  color: #221300;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item.three .item-pricing .pricing-btn:hover {
+  color: #fff;
+  background: #221300;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item.four .item-top {
+  background-image: url(../img/bg_qyb@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item.four .item-top .item-title,
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item.four .item-top .item-msg {
+  color: #32069D;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item.four .item-pricing .pricing-btn {
+  background: #B6A5FA;
+  color: #32069D;
+}
+.baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item.four .item-pricing .pricing-btn:hover {
+  color: #fff;
+  background: #32069D;
+}
+.baishu .content .pricing-five-box {
+  width: 100%;
+  height: 534px;
+  background-image: url(../img/bg_jiqun@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.baishu .content .pricing-five-box .pricing-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 40px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+.baishu .content .pricing-five-box .pricing-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.baishu .content .pricing-five-box .pricing-list .list-item {
+  width: calc((100% - 60px * 2) / 3);
+  margin-right: 60px;
+  height: 334px;
+  padding: 30px;
+  border-radius: 10px;
+}
+.baishu .content .pricing-five-box .pricing-list .list-item:first-child {
+  background-image: url(../img/img_jiqun1@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.baishu .content .pricing-five-box .pricing-list .list-item:first-child .item-qiu {
+  width: 84px;
+  height: 84px;
+  background-image: url(../img/img_lanqiu@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 34px;
+  bottom: -42px;
+  -webkit-animation: jump 3s infinite;
+  animation: jump 3s infinite;
+}
+.baishu .content .pricing-five-box .pricing-list .list-item:nth-child(2) {
+  background-image: url(../img/img_jiqun2@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.baishu .content .pricing-five-box .pricing-list .list-item:last-child {
+  background-image: url(../img/img_jiqun3@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 0;
+  position: relative;
+}
+.baishu .content .pricing-five-box .pricing-list .list-item:last-child .item-qiu {
+  width: 84px;
+  height: 84px;
+  background-image: url(../img/img_fenqiu@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: 54px;
+  top: -39px;
+  -webkit-animation: jump 3s infinite;
+  animation: jump 3s infinite;
+}
+.baishu .content .pricing-five-box .pricing-list .list-item .item-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333333;
+  line-height: 28px;
+  margin-bottom: 14px;
+}
+.baishu .content .pricing-five-box .pricing-list .list-item .item-msg {
+  font-size: 14px;
+  color: #333333;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+.baishu .content .pricing-five-box .pricing-list .list-item .item-btn {
+  display: block;
+  width: 108px;
+  height: 36px;
+  background: #3849CB;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 36px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+.baishu .content .pricing-five-box .pricing-list .list-item .item-btn:hover {
+  background: #0E24CC;
+}
+.baishu .content .pricing-five-box .pricing-list .list-item .item-tip {
+  width: 150px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #4D609F;
+  line-height: 26px;
+}
+.baishu .content .pricing-five-box .pricing-list .list-item:hover {
+  box-shadow: 0px 2px 30px 0px rgba(255, 255, 255, 0.5);
+}
+.baishu .content .pricing-six-box {
+  width: 100%;
+  height: 342px;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.baishu .content .pricing-six-box .table-box {
+  background: #FFFFFF;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  padding: 40px 80px 40px 20px;
+  margin-bottom: 40px;
+}
+.baishu .content .pricing-six-box .table-box .title {
+  padding-left: 14px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.baishu .content .pricing-six-box .table-box .title:before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #4162E9;
+}
+.baishu .content .pricing-six-box .table-box .title h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333;
+}
+.baishu .content .pricing-six-box .table-box .cont-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.baishu .content .pricing-six-box .table-box .cont-box .item-box {
+  width: calc(50% - 10px);
+  background: #FAFAFA;
+  border-radius: 10px;
+  border: 1px solid #E0E0E0;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+.baishu .content .pricing-six-box .table-box .cont-box .item-box .itemList .list {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333333;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px #E0E0E0 solid;
+  height: 54px;
+  line-height: 54px;
+  background-color: transparent;
+  border-radius: none;
+}
+.baishu .content .pricing-six-box .table-box .cont-box .item-box .itemList .list .left {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+}
+.baishu .content .pricing-six-box .table-box .cont-box .item-box .itemList .list .right {
+  font-size: 14px;
+  color: #0265FF;
+}
+.baishu .content .pricing-six-box .table-box .cont-box .item-box .itemList .list .right span {
+  font-weight: bold;
+  font-size: 20px;
+}
+.baishu .content .pricing-six-box .table-box .cont-box .item-box .tip {
+  padding: 14px 12px;
+  background-color: #fff;
+  height: calc(100% - 54px);
+}
+.baishu .content .pricing-six-box .table-box .cont-box .item-box .tip p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #666666;
+  line-height: 24px;
+}
+.baishu .content .pricing-seven-box {
+  width: 100%;
+  height: 746px;
+  background: #F8F8FA;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.baishu .content .pricing-seven-box .table-box {
+  background: #FFFFFF;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  padding: 40px 20px;
+  margin-bottom: 40px;
+}
+.baishu .content .pricing-seven-box .table-box .title {
+  padding-left: 14px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.baishu .content .pricing-seven-box .table-box .title:before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #4162E9;
+}
+.baishu .content .pricing-seven-box .table-box .title h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333;
+}
+.baishu .content .pricing-seven-box .table-box .table-top-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.baishu .content .pricing-seven-box .table-box .table-top-list .list-item {
+  width: calc((100% - 19px * 2) / 3);
+  margin-right: 19px;
+  height: 262px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+.baishu .content .pricing-seven-box .table-box .table-top-list .list-item:first-child .item-top {
+  background: rgba(74, 204, 140, 0.06);
+}
+.baishu .content .pricing-seven-box .table-box .table-top-list .list-item:first-child .item-top .top-title .title-icon {
+  background-image: url(../img/img_zzyw1@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.baishu .content .pricing-seven-box .table-box .table-top-list .list-item:first-child:hover {
+  box-shadow: inset 0 0 1px 1px #4ACC8C, 0px 2px 10px 0px rgba(0, 0, 0, 0.08);
+}
+.baishu .content .pricing-seven-box .table-box .table-top-list .list-item:nth-child(2) .item-top {
+  padding-top: 30px;
+  flex-wrap: wrap;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: rgba(2, 101, 255, 0.06);
+}
+.baishu .content .pricing-seven-box .table-box .table-top-list .list-item:nth-child(2) .item-top .top-title .title-icon {
+  background-image: url(../img/img_zzyw2@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.baishu .content .pricing-seven-box .table-box .table-top-list .list-item:nth-child(2):hover {
+  box-shadow: inset 0 0 1px 1px #0265ff, 0px 2px 10px 0px rgba(0, 0, 0, 0.08);
+}
+.baishu .content .pricing-seven-box .table-box .table-top-list .list-item:last-child {
+  margin-right: 0;
+}
+.baishu .content .pricing-seven-box .table-box .table-top-list .list-item:last-child .item-top {
+  background: rgba(255, 197, 2, 0.06);
+}
+.baishu .content .pricing-seven-box .table-box .table-top-list .list-item:last-child .item-top .top-title .title-icon {
+  background-image: url(../img/img_zzyw3@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.baishu .content .pricing-seven-box .table-box .table-top-list .list-item:last-child:hover {
+  box-shadow: inset 0 0 1px 1px #FFC502, 0px 2px 10px 0px rgba(0, 0, 0, 0.08);
+}
+.baishu .content .pricing-seven-box .table-box .table-top-list .list-item .item-top {
+  width: 100%;
+  height: 124px;
+  border-radius: 10px 10px 2px 2px;
+  padding: 0 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.baishu .content .pricing-seven-box .table-box .table-top-list .list-item .item-top .item-hasTip {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.baishu .content .pricing-seven-box .table-box .table-top-list .list-item .item-top .item-top-tip {
+  width: 100%;
+  font-size: 14px;
+  color: #4D609F;
+  line-height: 20px;
+  text-align: right;
+}
+.baishu .content .pricing-seven-box .table-box .table-top-list .list-item .item-top .top-title {
+  display: flex;
+  align-items: center;
+}
+.baishu .content .pricing-seven-box .table-box .table-top-list .list-item .item-top .top-title .title-icon {
+  width: 64px;
+  height: 64px;
+  margin-right: 8px;
+}
+.baishu .content .pricing-seven-box .table-box .table-top-list .list-item .item-top .top-title .title-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333333;
+  line-height: 28px;
+}
+.baishu .content .pricing-seven-box .table-box .table-top-list .list-item .item-top .item-pricing {
+  font-size: 14px;
+  color: #0265FF;
+  line-height: 1;
+}
+.baishu .content .pricing-seven-box .table-box .table-top-list .list-item .item-top .item-pricing span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.baishu .content .pricing-seven-box .table-box .table-top-list .list-item .item-bottom {
+  padding: 30px;
+  font-size: 14px;
+  color: #333333;
+  line-height: 26px;
+}
+.baishu .content .pricing-seven-box .table-box .table-bottom {
+  width: 100%;
+  height: 262px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  margin-top: 20px;
+  position: relative;
+}
+.baishu .content .pricing-seven-box .table-box .table-bottom:hover {
+  box-shadow: inset 0 0 1px 1px #2BC2E1, 0px 2px 10px 0px rgba(0, 0, 0, 0.08);
+}
+.baishu .content .pricing-seven-box .table-box .table-bottom:last-child {
+  margin-right: 0;
+}
+.baishu .content .pricing-seven-box .table-box .table-bottom .item-top {
+  width: 100%;
+  height: 124px;
+  background: rgba(43, 194, 225, 0.06);
+  border-radius: 10px 10px 2px 2px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.baishu .content .pricing-seven-box .table-box .table-bottom .item-top .top-title {
+  display: flex;
+  align-items: center;
+  margin-right: 56px;
+}
+.baishu .content .pricing-seven-box .table-box .table-bottom .item-top .top-title .title-icon {
+  width: 64px;
+  height: 64px;
+  margin-right: 8px;
+  background-image: url(../img/img_zzyw4@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.baishu .content .pricing-seven-box .table-box .table-bottom .item-top .top-title .title-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333333;
+  line-height: 28px;
+}
+.baishu .content .pricing-seven-box .table-box .table-bottom .item-top .item-pricing {
+  font-size: 14px;
+  color: #0265FF;
+  line-height: 1;
+}
+.baishu .content .pricing-seven-box .table-box .table-bottom .item-top .item-pricing span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.baishu .content .pricing-seven-box .table-box .table-bottom .item-bottom {
+  padding: 30px;
+}
+.baishu .content .pricing-seven-box .table-box .table-bottom .item-bottom .bottom-msg {
+  font-size: 14px;
+  color: #333333;
+  line-height: 26px;
+  margin-top: 16px;
+}
+.baishu .content .pricing-seven-box .table-box .table-bottom .item-bottom .bottom-tip {
+  font-size: 14px;
+  color: #FF9921;
+  line-height: 26px;
+}
+.baishu .content .pricing-seven-box .table-box .table-bottom .item-hot {
+  position: absolute;
+  width: 90px;
+  height: 62px;
+  background-image: url(../img/img_pricinghot@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 5px;
+  right: 16px;
+}
+.baishu .content .pricing-eight-box {
+  width: 100%;
+  height: 570px;
+  margin-top: 40px;
+  background-image: url(../img/bg_bdbs@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.baishu .content .pricing-eight-box .container-content {
+  position: relative;
+  height: 100%;
+}
+.baishu .content .pricing-eight-box .container-content .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.baishu .content .pricing-eight-box .container-content .title .title-icon {
+  width: 38px;
+  height: 38px;
+  background-image: url(../img/img_bushuicon@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 20px;
+}
+.baishu .content .pricing-eight-box .container-content .title .title-text {
+  font-size: 32px;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 50px;
+  letter-spacing: 1px;
+}
+.baishu .content .pricing-eight-box .container-content .cont-msg {
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 22px;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list .list-item {
+  width: calc((100% - 20px * 4) / 5);
+  margin-right: 20px;
+  padding: 40px 30px 0;
+  background: #3849CB;
+  border-radius: 10px 10px 0px 0px;
+  position: relative;
+  overflow: hidden;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list .list-item .cont-hover-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s;
+  opacity: 0;
+  overflow: hidden;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list .list-item .cont-hover-mask .title-text {
+  width: 100%;
+  height: 105px;
+  line-height: 105px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #D1FFFF;
+  letter-spacing: 1px;
+  background-color: #3849CB;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list .list-item .cont-hover-mask .mask-bottom {
+  width: 100%;
+  height: calc(100% - 105px);
+  padding: 60px 30px 0;
+  background-color: #fff;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list .list-item .cont-hover-mask .mask-bottom .item-msg {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333333;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list .list-item .cont-hover-mask .mask-bottom .mask-btn {
+  display: block;
+  width: 108px;
+  height: 36px;
+  line-height: 36px;
+  background: #3849CB;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin: 0 auto;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list .list-item .cont-hover-mask .mask-bottom .mask-btn:hover {
+  background: #0E24CB;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list .list-item:hover .cont-hover-mask {
+  opacity: 1;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list .list-item:last-child {
+  margin-right: 0;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list .list-item .item-title {
+  margin-bottom: 20px;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list .list-item .item-title .title-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 25px;
+  text-align: center;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list .list-item .item-title .title-icon {
+  display: none;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list .list-item .item-msg {
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list .list-item .item-icon {
+  width: 102px;
+  height: 102px;
+  margin: 0 auto;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list .list-item.one {
+  height: 287px;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list .list-item.one .item-icon {
+  background-image: url(../img/img_bdbs1@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list .list-item.two {
+  height: 327px;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list .list-item.two .item-icon {
+  background-image: url(../img/img_bdbs2@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list .list-item.three {
+  height: 367px;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list .list-item.three .item-icon {
+  background-image: url(../img/img_bdbs3@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list .list-item.four {
+  height: 327px;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list .list-item.four .item-icon {
+  background-image: url(../img/img_bdbs4@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list .list-item.five {
+  height: 287px;
+}
+.baishu .content .pricing-eight-box .container-content .cont-list .list-item.five .item-icon {
+  background-image: url(../img/img_bdbs5@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.baishu .content .pricing-eight-box .container-content .cont-btn {
+  display: none;
+}
+.baishu .footer {
+  display: flex;
+  justify-content: center;
+}
+.baishu .bottom-consult-btn {
+  display: none;
+}
+.baishu .advisory-list {
+  top: auto;
+  bottom: 10px;
+  transform: none;
+  height: 48px;
+  display: none;
+}
+.baishu .advisory-list .contact-button {
+  width: 48px;
+  height: 48px;
+}
+@media screen and (max-width: 768px) {
+  .baishu {
+    padding-bottom: 88px;
+  }
+  .baishu .container {
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+  }
+  .baishu .footer .container {
+    padding: 0 14px;
+  }
+  .baishu .header .navbar .container .navbar-header {
+    height: 50px;
+  }
+  .baishu .header .navbar .container .navbar-header .navbar-brand {
+    padding: 0;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  .baishu .header .navbar .container .navbar-header .loginUse {
+    top: 11px !important;
+    right: 65px !important;
+    margin: 0 !important;
+  }
+  .baishu .header .navbar .container .navbar-header .loginUse li:first-child a {
+    width: 49px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 19px;
+    margin-right: 10px;
+    border: none;
+  }
+  .baishu .header .navbar .container .navbar-header .loginUse li:last-child a {
+    width: 90px;
+    height: 28px;
+    line-height: 28px;
+    background: #FFFFFF;
+    border-radius: 19px;
+    font-size: 16px;
+    color: #1628B0;
+  }
+  .baishu .header .navbar .container .navbar-header .navbar-toggle {
+    background-color: transparent !important;
+    border: none;
+    margin-right: 25px;
+    position: relative;
+    margin-top: 11px !important;
+  }
+  .baishu .header .navbar .container .navbar-header .navbar-toggle::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 1px;
+    background-color: #fff;
+    height: 14px;
+  }
+  .baishu .header .navbar .container .navbar-header .navbar-toggle .icon-bar {
+    background-color: #fff;
+    width: 14px;
+    height: 1px;
+  }
+  .baishu .header .navbar .container #navbar {
+    background: #fff;
+    top: 50px !important;
+  }
+  .baishu .header .navbar .container #navbar ul li a {
+    color: #333 !important;
+  }
+  .baishu .header .navbar .container #navbar ul li a.active {
+    color: #1628B0 !important;
+  }
+  .baishu .header .navbar .container #navbar ul li:hover a.link span {
+    color: #333;
+    font-weight: normal;
+  }
+  .baishu .content .pricing-one-box {
+    height: auto;
+    background-image: url(../img/bg_dingbu@2x.png);
+    position: relative;
+  }
+  .baishu .content .pricing-one-box img {
+    display: block;
+    visibility: hidden;
+    width: 100%;
+  }
+  .baishu .content .pricing-one-box .container {
+    padding-top: 68px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .baishu .content .pricing-one-box .container .container-content {
+    background: none;
+    width: 100%;
+    height: auto;
+  }
+  .baishu .content .pricing-one-box .container .container-content .pricing-cont {
+    width: 100%;
+    height: auto;
+    position: inherit;
+    top: auto;
+    left: auto;
+  }
+  .baishu .content .pricing-one-box .container .container-content .pricing-cont .cont-title {
+    font-size: 20px;
+    margin-bottom: 8px;
+    line-height: 28px;
+    letter-spacing: 0.54px;
+  }
+  .baishu .content .pricing-one-box .container .container-content .pricing-cont .cont-msg {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .baishu .content .pricing-one-box .container .container-content .pricing-cont .cont-consult-btn {
+    width: 98px;
+    height: 36px;
+    line-height: 36px;
+    background: linear-gradient(45deg, #8AFFE9 0%, #E9FDFF 100%);
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  .baishu .content .pricing-two-box {
+    height: auto;
+    padding: 14px;
+  }
+  .baishu .content .pricing-two-box .container .container-content {
+    height: 36px;
+    background: rgba(2, 101, 255, 0.06);
+    border-radius: 2px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .baishu .content .pricing-two-box .container .container-content .line {
+    width: 1px;
+    height: 14px;
+    background: #E5E5E5;
+  }
+  .baishu .content .pricing-two-box .container .container-content .pricing-menu-item {
+    width: auto;
+    font-size: 16px;
+    color: #1628B0;
+    line-height: 36px;
+  }
+  .baishu .content .pricing-two-box .container .container-content .pricing-menu-item.active {
+    background: transparent;
+    font-weight: normal;
+  }
+  .baishu .content .pricing-three-box {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    height: auto;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-title {
+    margin-bottom: 16px;
+    padding-left: 14px;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-title .title-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-title .title-text {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont {
+    display: block;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left {
+    width: calc(100% - 28px);
+    height: auto;
+    margin: 0 auto;
+    background: #1628B0;
+    border-radius: 10px;
+    display: block;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-top {
+    width: 100%;
+    height: 186px;
+    background-image: url(../img/bg_gyymobile@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 20px 0;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-top .top-title {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-top .top-msg {
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-top .top-tip {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-bottom {
+    width: 100%;
+    padding-top: 10px;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-bottom .bottom-list {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-bottom .bottom-list .list-item {
+    width: 100%;
+    padding: 0 20px;
+    height: 36px;
+    line-height: 36px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-bottom .bottom-list .list-item .item-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-bottom .bottom-list .list-item .item-text {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-bottom .bottom-list .list-item .item-text span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 1;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-bottom .bottom-list .list-item:nth-child(2n) {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-bottom .list-btn {
+    background: transparent;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-bottom .list-btn .bottom-btn {
+    display: block;
+    width: 196px;
+    height: 46px;
+    line-height: 46px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1628B0;
+    text-align: center;
+    cursor: pointer;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-left .cont-left-bottom .list-btn .bottom-btn:hover {
+    opacity: 0.8;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right {
+    width: calc(100% - 28px);
+    margin: 15px auto 0;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-title {
+    margin-bottom: 16px;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-title .right-title {
+    font-size: 16px;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-title .right-msg {
+    font-size: 14px;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-list {
+    display: none;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-table {
+    display: block;
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+    overflow: hidden;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-table .table-head {
+    display: flex;
+    background: #F4F6FC;
+    border-radius: 10px 10px 0px 0px;
+    padding-left: 10px;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-table .table-head .head-td {
+    flex: 1 1;
+    color: #4D609F;
+    display: flex;
+    align-items: center;
+    height: 42px;
+    font-size: 14px;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-table .table-body {
+    border-radius: 0px 0px 10px 10px;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-table .table-body .body-tr {
+    display: flex;
+    padding-left: 10px;
+    background: #fff;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-table .table-body .body-tr:nth-child(2n) {
+    background: #F5F5F5;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-table .table-body .body-tr .body-td {
+    flex: 1 1;
+    display: flex;
+    align-items: center;
+    height: 42px;
+    font-size: 14px;
+    color: #333;
+  }
+  .baishu .content .pricing-three-box .container .container-content .pricing-cont .cont-right .cont-right-table .table-body .body-tr .body-td.title {
+    font-weight: bold;
+  }
+  .baishu .content .pricing-four-box {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 14px;
+  }
+  .baishu .content .pricing-four-box .container .container-content .pricing-title {
+    margin-bottom: 16px;
+  }
+  .baishu .content .pricing-four-box .container .container-content .pricing-title .title-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+  }
+  .baishu .content .pricing-four-box .container .container-content .pricing-title .title-text {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .baishu .content .pricing-four-box .container .container-content .pricing-cont {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-top: 46px;
+    transform: translate(0, -14px);
+    padding-bottom: 16px;
+  }
+  .baishu .content .pricing-four-box .container .container-content .pricing-cont::-webkit-scrollbar {
+    width: 0 !important;
+    height: 0 !important;
+    display: none;
+  }
+  .baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list {
+    display: flex;
+    width: calc(100% - 209px);
+  }
+  .baishu .content .pricing-four-box .container .container-content .pricing-cont .cont-list .list-item {
+    width: 236px;
+    flex: none;
+  }
+  .baishu .content .pricing-five-box {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+  }
+  .baishu .content .pricing-five-box .pricing-title {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.76px;
+    margin-bottom: 16px;
+    padding-left: 14px;
+  }
+  .baishu .content .pricing-five-box .pricing-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    transform: translate(0, -20px);
+    padding-left: 14px;
+  }
+  .baishu .content .pricing-five-box .pricing-list::-webkit-scrollbar {
+    width: 0 !important;
+    height: 0 !important;
+    display: none;
+  }
+  .baishu .content .pricing-five-box .pricing-list .list-item {
+    width: 320px;
+    margin-right: 15px;
+    height: 230px;
+    padding: 15px;
+    flex: none;
+    border-radius: 10px;
+  }
+  .baishu .content .pricing-five-box .pricing-list .list-item .item-title {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 12px;
+  }
+  .baishu .content .pricing-five-box .pricing-list .list-item .item-msg {
+    margin-bottom: 40px;
+  }
+  .baishu .content .pricing-five-box .pricing-list .list-item .item-qiu {
+    width: 68px!important;
+    height: 68px!important;
+  }
+  .baishu .content .pricing-five-box .pricing-list .list-item:first-child {
+    background-image: url(../img/img_jiqunmobile1@2x.png);
+  }
+  .baishu .content .pricing-five-box .pricing-list .list-item:first-child .item-qiu {
+    bottom: -30px;
+    left: 27px;
+  }
+  .baishu .content .pricing-five-box .pricing-list .list-item:nth-child(2) {
+    background-image: url(../img/img_jiqunmobile2@2x.png);
+  }
+  .baishu .content .pricing-five-box .pricing-list .list-item:last-child {
+    background-image: url(../img/img_jiqunmobile3@2x.png);
+  }
+  .baishu .content .pricing-five-box .pricing-list .list-item:last-child .item-qiu {
+    top: -34px;
+    right: 60px;
+  }
+  .baishu .content .pricing-six-box {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+  }
+  .baishu .content .pricing-six-box .table-box {
+    box-shadow: none;
+    padding: 0 14px;
+    margin-bottom: 0;
+  }
+  .baishu .content .pricing-six-box .table-box .title {
+    margin-bottom: 12px;
+  }
+  .baishu .content .pricing-six-box .table-box .cont-box {
+    width: 100%;
+    display: block;
+  }
+  .baishu .content .pricing-six-box .table-box .cont-box .item-box {
+    width: 100%;
+    background: #FAFAFA;
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+    margin-bottom: 12px;
+  }
+  .baishu .content .pricing-six-box .table-box .cont-box .item-box:last-child {
+    margin-bottom: 0;
+  }
+  .baishu .content .pricing-six-box .table-box .cont-box .item-box .item-header {
+    display: none;
+  }
+  .baishu .content .pricing-six-box .table-box .cont-box .item-box .itemList .list {
+    padding: 0 12px;
+    border-bottom: 1px #E0E0E0 solid;
+    width: 100%;
+    height: 54px;
+    line-height: 54px;
+    background-color: transparent;
+    border-radius: none;
+    margin-bottom: 0;
+  }
+  .baishu .content .pricing-six-box .table-box .cont-box .item-box .itemList .list .left {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+  }
+  .baishu .content .pricing-six-box .table-box .cont-box .item-box .itemList .list .right {
+    font-size: 14px;
+    color: #0265FF;
+  }
+  .baishu .content .pricing-six-box .table-box .cont-box .item-box .itemList .list .right span {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .baishu .content .pricing-six-box .table-box .cont-box .item-box .tip {
+    padding: 14px 12px;
+  }
+  .baishu .content .pricing-seven-box {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .baishu .content .pricing-seven-box .table-box {
+    background: #FFFFFF;
+    box-shadow: none;
+    border-radius: none;
+    padding: 0 14px;
+    margin-bottom: 0;
+  }
+  .baishu .content .pricing-seven-box .table-box .title {
+    margin-bottom: 12px;
+  }
+  .baishu .content .pricing-seven-box .table-box .table-top-list {
+    display: block;
+  }
+  .baishu .content .pricing-seven-box .table-box .table-top-list .list-item {
+    width: 100%;
+    margin-right: 0;
+    height: auto;
+    margin-bottom: 12px;
+  }
+  .baishu .content .pricing-seven-box .table-box .table-top-list .list-item:nth-child(2) .item-top {
+    padding: 20px 12px 3px;
+  }
+  .baishu .content .pricing-seven-box .table-box .table-top-list .list-item:last-child {
+    margin-bottom: 0;
+  }
+  .baishu .content .pricing-seven-box .table-box .table-top-list .list-item .item-top {
+    width: 100%;
+    height: auto;
+    padding: 20px 12px;
+  }
+  .baishu .content .pricing-seven-box .table-box .table-top-list .list-item .item-top .top-title .title-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  .baishu .content .pricing-seven-box .table-box .table-top-list .list-item .item-top .top-title .title-text {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .baishu .content .pricing-seven-box .table-box .table-top-list .list-item .item-bottom {
+    padding: 12px;
+  }
+  .baishu .content .pricing-seven-box .table-box .table-bottom {
+    height: auto;
+    margin-top: 12px;
+  }
+  .baishu .content .pricing-seven-box .table-box .table-bottom .item-top {
+    height: auto;
+    padding: 20px 12px;
+    justify-content: space-between;
+  }
+  .baishu .content .pricing-seven-box .table-box .table-bottom .item-top .top-title {
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+  }
+  .baishu .content .pricing-seven-box .table-box .table-bottom .item-top .top-title .title-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  .baishu .content .pricing-seven-box .table-box .table-bottom .item-top .top-title .title-text {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .baishu .content .pricing-seven-box .table-box .table-bottom .item-bottom {
+    padding: 12px;
+  }
+  .baishu .content .pricing-seven-box .table-box .table-bottom .item-bottom .bottom-msg {
+    margin-top: 0;
+  }
+  .baishu .content .pricing-seven-box .table-box .table-bottom .item-bottom .bottom-tip {
+    margin-top: 12px;
+  }
+  .baishu .content .pricing-seven-box .table-box .table-bottom .item-hot {
+    width: 45px;
+    height: 31px;
+    top: 16px;
+    right: auto;
+    left: 140px;
+  }
+  .baishu .content .pricing-eight-box {
+    height: auto;
+    margin-top: 20px;
+    padding-top: 26px;
+    padding-bottom: 20px;
+  }
+  .baishu .content .pricing-eight-box .container-content {
+    padding: 0 14px;
+  }
+  .baishu .content .pricing-eight-box .container-content .title {
+    margin-bottom: 12px;
+  }
+  .baishu .content .pricing-eight-box .container-content .title .title-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+  }
+  .baishu .content .pricing-eight-box .container-content .title .title-text {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.86px;
+  }
+  .baishu .content .pricing-eight-box .container-content .cont-msg {
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 22px;
+    letter-spacing: 0.76px;
+    margin-bottom: 15px;
+  }
+  .baishu .content .pricing-eight-box .container-content .cont-list {
+    position: inherit;
+    display: block;
+  }
+  .baishu .content .pricing-eight-box .container-content .cont-list .list-item {
+    width: 100%;
+    margin-right: 0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+  }
+  .baishu .content .pricing-eight-box .container-content .cont-list .list-item:hover {
+    background-color: #FFFFFF;
+  }
+  .baishu .content .pricing-eight-box .container-content .cont-list .list-item:hover .item-title .title-text,
+  .baishu .content .pricing-eight-box .container-content .cont-list .list-item:hover .item-msg {
+    color: #1C2AB6;
+  }
+  .baishu .content .pricing-eight-box .container-content .cont-list .list-item:hover .cont-hover-mask {
+    opacity: 0;
+  }
+  .baishu .content .pricing-eight-box .container-content .cont-list .list-item:last-child {
+    margin-bottom: 0;
+  }
+  .baishu .content .pricing-eight-box .container-content .cont-list .list-item .item-title {
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+  }
+  .baishu .content .pricing-eight-box .container-content .cont-list .list-item .item-title .title-text {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 0;
+    text-align: left;
+  }
+  .baishu .content .pricing-eight-box .container-content .cont-list .list-item .item-title .title-icon {
+    width: 28px;
+    height: 28px;
+    margin-right: 6px;
+    display: block;
+  }
+  .baishu .content .pricing-eight-box .container-content .cont-list .list-item .item-msg {
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+  .baishu .content .pricing-eight-box .container-content .cont-list .list-item .item-icon {
+    width: 102px;
+    height: 102px;
+    margin: 0 auto;
+    display: none;
+  }
+  .baishu .content .pricing-eight-box .container-content .cont-list .list-item.one {
+    height: auto;
+  }
+  .baishu .content .pricing-eight-box .container-content .cont-list .list-item.one .item-title .title-icon {
+    background-image: url(../img/img_bdbs1@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .baishu .content .pricing-eight-box .container-content .cont-list .list-item.two {
+    height: auto;
+  }
+  .baishu .content .pricing-eight-box .container-content .cont-list .list-item.two .item-title .title-icon {
+    background-image: url(../img/img_bdbs2@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .baishu .content .pricing-eight-box .container-content .cont-list .list-item.three {
+    height: auto;
+  }
+  .baishu .content .pricing-eight-box .container-content .cont-list .list-item.three .item-title .title-icon {
+    background-image: url(../img/img_bdbs6@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .baishu .content .pricing-eight-box .container-content .cont-list .list-item.four {
+    height: auto;
+  }
+  .baishu .content .pricing-eight-box .container-content .cont-list .list-item.four .item-title .title-icon {
+    background-image: url(../img/img_bdbs4@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .baishu .content .pricing-eight-box .container-content .cont-list .list-item.five {
+    height: auto;
+  }
+  .baishu .content .pricing-eight-box .container-content .cont-list .list-item.five .item-title .title-icon {
+    background-image: url(../img/img_bdbs5@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .baishu .content .pricing-eight-box .container-content .cont-btn {
+    display: flex;
+    justify-content: center;
+  }
+  .baishu .content .pricing-eight-box .container-content .cont-btn .consult-btn {
+    width: 108px;
+    height: 36px;
+    line-height: 36px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1B29B2;
+    text-align: center;
+    margin: 20px 0;
+  }
+  .baishu .bottom-consult-btn {
+    display: block;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 88px;
+    background-color: #fff;
+    padding: 0 15px;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px 0px;
+  }
+  .baishu .bottom-consult-btn .consult-btn {
+    display: block;
+    flex: 1;
+    text-align: center;
+    height: 46px;
+    line-height: 46px;
+    background: #0265FF;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+  .baishu .advisory-list {
+    bottom: 100px!important;
+  }
+  .baishu #consult-btn1,
+  .baishu #consult-btn2,
+  .baishu #consult-btn3,
+  .baishu #consult-btn4,
+  .baishu #consult-btn5,
+  .baishu #consult-btn7,
+  .baishu #consult-btn8,
+  .baishu #consult-btn9,
+  .baishu #consult-btn10,
+  .baishu #consult-btn11,
+  .baishu #consult-btn12 {
+    display: none;
+  }
+  #_aihecong_chat_container_body._aihecong_chat_container_body_active ._aihecong_chat_iframe {
+    transform: none !important;
+  }
+}
